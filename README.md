@@ -12,9 +12,13 @@ The Excel Reader App is an Android application designed to read and display Exce
 - AdMob integration for displaying banner and interstitial ads.
 
 ## Screenshots
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+<img src="https://github.com/samyak2403/Flashlight-ORG/assets/126759819/bbd4830b-d9d6-4383-ae32-1a8211a90be1" alt="Screenshot 1" width="300"/>
+<img src="https://github.com/user-attachments/assets/956667a6-22e3-4a8a-968c-2ad7c789cd28" alt="Screenshot 2" width="300"/>
 
+
+
+
+<img src="https://github.com/samyak2403/Flashlight-ORG/assets/126759819/abe7323e-1dc6-4c26-8a97-41d061389deb" alt="Screenshot 1" width="300"/>
 ## Installation
 
 1. **Clone the repository**
