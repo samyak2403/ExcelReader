@@ -19,7 +19,7 @@ The Excel Reader App is an Android application designed to read and display Exce
 
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/yourusername/excel-reader-app.git
+    [git clone https://github.com/yourusername/excel-reader-app.git](https://github.com/samyak2403/ExcelReader.git)
     cd excel-reader-app
     ```
 
