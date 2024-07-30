@@ -19,7 +19,7 @@ The Excel Reader App is an Android application designed to read and display Exce
 
 1. **Clone the repository**
     ```sh
-    [git clone https://github.com/yourusername/excel-reader-app.git](https://github.com/samyak2403/ExcelReader.git)
+    https://github.com/samyak2403/ExcelReader.git
     cd excel-reader-app
     ```
 
@@ -54,28 +54,6 @@ The Excel Reader App is an Android application designed to read and display Exce
     - The app will display banner ads at the bottom of the screen.
     - Interstitial ads will appear at appropriate intervals to enhance user experience and app monetization.
 
-## AdMob Integration
-
-1. **Banner Ads**
-    - Implemented at the bottom of the screen in `MainActivity.java`:
-        ```java
-        AdView adView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
-        ```
-
-2. **Interstitial Ads**
-    - Loaded and displayed at specific points in the app:
-        ```java
-        InterstitialAd interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("YOUR_INTERSTITIAL_AD_UNIT_ID");
-        interstitialAd.loadAd(new AdRequest.Builder().build());
-
-        // Show the ad at an appropriate point
-        if (interstitialAd.isLoaded()) {
-            interstitialAd.show();
-        }
-        ```
 
 ## Dependencies
 
