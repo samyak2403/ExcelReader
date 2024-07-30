@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomEditToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/shape_bg_pdf_edit_toolbar">
+
+    <LinearLayout
+        android:id="@+id/text_color_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/v_ll_ink_bottom_line">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerColor"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:overScrollMode="never"
+            android:paddingEnd="20dp"
+            android:scrollbars="none"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bg_color_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/v_ll_ink_bottom_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerBgColor"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_color" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_ll_ink_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="#f2f4f9"
+        app:layout_constraintBottom_toTopOf="@id/horizontalContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalContainer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#00000000"
+
+            android:orientation="horizontal">
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_size_down"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_text_decrease_24" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_size_up"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_text_increase_24" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_bold"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_format_bold_24" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_italic"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_format_italic_24" />
+
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_under"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/ic_preview_underscore" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_color"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_text_color" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_striketrough"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/ic_preview_strikethrough" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_text_bg"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/ic_preview_highlight" />
+
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_align_left"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_align_text_left" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_align_center"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_align_text_center" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_align_right"
+
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_align_text_right" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_align_justify"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_align_text_full" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_list_bullets"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_list_bullet" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_list_numbers"
+
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_list_numbers" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_indent_decrease"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_indent_text_left" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_indent_increase"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_indent_text_right" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_insert_image"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_add_photo_alternate_24" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_insert_photo"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_add_a_photo_24" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_cut"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/sodk_editor_icon_cut" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_copy"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/ic_copy_new" />
+
+            <com.arrowwould.excelreader.customviews.EditBtn
+                android:id="@+id/btn_paste"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                app:ImageEdt="@drawable/baseline_content_paste_24" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

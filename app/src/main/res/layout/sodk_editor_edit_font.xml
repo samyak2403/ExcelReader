@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryContrast"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_8sdp">
+
+    <com.artifex.sonui.editor.SOTextView
+        style="@style/sodk_editor_wheel_title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:gravity="center"
+        android:text="@string/sodk_editor_edit_font" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/left_wheel"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/right_wheel"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp" />
+    </LinearLayout>
+</LinearLayout>

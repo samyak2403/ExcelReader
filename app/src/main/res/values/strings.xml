@@ -1,0 +1,922 @@
+<resources>
+    <string name="app_name">Excel Reader</string>
+
+
+    <string name="sys_button_ok" translatable="false">OK</string>
+    <string name="pg_toolsbar_note" translatable="false">Note</string>
+    <string name="count_files" translatable="false">(%s files)</string>
+    <string name="srl_component_falsify" formatted="false" translatable="false">%s falsify area,\n Represents the height[%.1fdp] of drag at run time,\n It does not show anything.</string>
+    <string name="srl_header_update" translatable="false">\'Last Update\' M-d HH:mm</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="splash_slogan_2" translatable="false"><![CDATA[Any Time & Any Where]]></string>
+    <string name="main_icon_all" translatable="false">ALL</string>
+    <string name="main_icon_xlx" translatable="false">XLX</string>
+    <string name="main_icon_pdf" translatable="false">PDF</string>
+    <string name="main_icon_doc" translatable="false">DOC</string>
+    <string name="main_icon_ppt" translatable="false">PPT</string>
+    <string name="main_icon_txt" translatable="false">TXT</string>
+    <string name="main_iocn_html" translatable="false">HTML</string>
+    <string name="main_icon_rtf" translatable="false">RTF</string>
+    <string name="all_files" translatable="false">All Files</string>
+    <string name="excel_files" translatable="false">Excel Files</string>
+    <string name="pdf_files" translatable="false">PDF Files</string>
+    <string name="doc_files" translatable="false">DOC Files</string>
+    <string name="ppt_files" translatable="false">PPT Files</string>
+    <string name="txt_files" translatable="false">TXT Files</string>
+    <string name="html_files" translatable="false">HTML Files</string>
+    <string name="rtf_files" translatable="false">RTF Files</string>
+    <string name="fav_files" translatable="false">Favorite Files</string>
+
+    <string name="str_action_cancel">Cancel</string>
+    <string name="rename">Rename</string>
+    <string name="sort_by">Sort by</string>
+    <string name="deleting">Deleting …</string>
+    <string name="str_action_share">Share</string>
+    <string name="str_home">Home</string>
+    <string name="str_recent">Recent</string>
+    <string name="str_failed">Failed</string>
+    <string name="str_no_files_yet">No files yet</string>
+    <string name="invalid_page_number">Invalid page number</string>
+
+    <string name="date_created">Date created</string>
+
+    <string name="name_a_to_z">Name: A to Z</string>
+    <string name="name_z_to_a">Name: Z to A</string>
+    <string name="file_size_largest">File size: Ascending</string>
+    <string name="file_size_minimum">File size: Descending</string>
+    <string name="toast_exit_app">Press back again to exit</string>
+    <string name="go_to_page">Go to page</string>
+    <string name="enter_page_number">Enter page number</string>
+    <string name="str_share_app_tittle">My application name</string>
+    <string name="str_share_app_des"> "\nLet me recommend you this application\n\n"</string>
+    <string name="str_action_choose_one">"Choose one"</string>
+    <string name="rate_tittle">Enjoyed using Document Reader?</string>
+    <string name="rate_content">We\'d really appreciate if you take a moment to share your experience with us and other users. It won\'t take more then a minute. Thank you for your support!</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="file_details">File details</string>
+    <string name="same_name">Same Name</string>
+    <string name="dialog_rate_recoment">The best rating star</string>
+    <string name="document_files">Document Files</string>
+    <string name="str_recent_des">Recent Documents will appear here</string>
+    <string name="dialog_confirm_delete_content">Are you sure want to delete? This action cannot be undone</string>
+    <string name="invalid_characters">Invalid characters (@, #, $…)</string>
+    <string name="all_reader2_search_files_hint">Search for files…</string>
+    <string name="bottom_dialog_detail">Detail</string>
+    <string name="dialog_confirm_delete">Delete</string>
+    <string name="failed_to_rename_file">Failed to rename file</string>
+    <string name="saved_path">Saved path:</string>
+    <string name="size">Size</string>
+    <string name="format">Format</string>
+    <string name="created">Created</string>
+    <string name="toolbar_tittle_choose_file">Select a file</string>
+    <string name="toolbar_tittle_choose_language">Choose Language</string>
+    <string name="splash_ads">This action may contains ads</string>
+    <string name="splash_slogan_1">Access all your Documents</string>
+    <string name="str_tittle_choose_file">Choose from storage</string>
+    <string name="str_choose_file">Select file from storage</string>
+    <string name="str_des_choose_file">You can select files from different folders on your devices</string>
+    <string name="str_feed_back_app">FeedBack Document Reader app</string>
+    <string name="navigation_feedback_or_suggestion">Feedback or suggestion</string>
+    <string name="navigation_file_manager">File manager</string>
+    <string name="navigation_rate_us">Rate us</string>
+    <string name="navigation_family_apps">Family Apps (AD)</string>
+    <string name="navigation_privacy_policy">Privacy policy</string>
+    <string name="navigation_language">Language</string>
+    <string name="str_action_search">Search</string>
+    <string name="dialog_rate_content">How do you feel about the app? Your feedback is important to us</string>
+    <string name="srl_content_empty">The content view in SmartRefreshLayout is empty. Do you forget to add it in xml layout file?</string>
+    <string name="srl_header_pulling">Pull Down To Refresh</string>
+    <string name="srl_header_release">Release To Refresh</string>
+    <string name="srl_header_refreshing">Refreshing…</string>
+    <string name="srl_header_loading">Wait For Loading…</string>
+    <string name="srl_header_finish">Refresh Success</string>
+    <string name="srl_header_failed">Refresh Failed</string>
+    <string name="srl_header_secondary">Release To Second Floor</string>
+
+
+    <string name="srl_footer_pulling">Pull Up To Load More</string>
+    <string name="srl_footer_release">Release To Load More</string>
+    <string name="srl_footer_loading">Loading…</string>
+    <string name="srl_footer_refreshing">Wait For Refreshing…</string>
+    <string name="srl_footer_finish">Load Success</string>
+    <string name="srl_footer_failed">Load Failed</string>
+    <string name="srl_footer_nothing">No More Data</string>
+    <string name="toast_maximum_file_share">You can share 50 file once time!</string>
+    <string name="str_action_ok">OK</string>
+    <string name="str_action_close">Close</string>
+    <string name="str_action_rate">Rate</string>
+    <string name="str_action_sort">Sort</string>
+    <string name="dialog_permission_required_title">Permission Required</string>
+    <string name="dialog_permission_required_des">To read and edit documents on your device, please allow Document Reader to access all your files.</string>
+    <string name="dialog_permission_required_allow_access">Allow access to manage all files</string>
+    <string name="turn_on_permission_guide">* Go to set -&gt; Click Permissions -&gt; Turn on Storage permission</string>
+    <string name="str_action_allow">Allow</string>
+    <string name="str_select_all">Select All</string>
+    <string name="x_selected">%s Selected</string>
+    <string name="str_action_move_fav">Remove Favorite</string>
+    <string name="dialog_move_fav">Move out of Favorite</string>
+    <string name="dialog_remove_body">Are you sure you want to move the file(s) out of this folder?</string>
+    <string name="removing">Removing…</string>
+    <string name="menu_jump_to_page">Jump to page</string>
+    <string name="menu_swipe_horizontal">Swipe horizontal</string>
+    <string name="menu_swipe_vertical">Swipe vertical</string>
+    <string name="menu_thumbnail">Thumbnail</string>
+    <string name="str_action_go">Go</string>
+    <string name="str_action_print">Print</string>
+    <string name="str_action_more">More</string>
+    <string name="toast_cant_share_file">Can\'t share file</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_passwrod_to_open">Enter Password to Open</string>
+    <string name="dialog_password_invalid">Invalid password</string>
+    <string name="toast_swipe_vertical_enable">"Vertical swipe enabled"</string>
+    <string name="toast_swipe_horizontal_enable">"Horizontal swipe enabled"</string>
+    <string name="toast_device_does_not_support_printing">Your device does not support printing</string>
+    <string name="toast_cant_print_password_protected_pdf">Cannot print a password protected PDF file</string>
+    <string name="toast_cannot_print_malformed_pdf">Cannot print a malformed PDF file</string>
+    <string name="toast_cannot_print_unknown_error">Cannot print PDF file, Unknown error has occurred</string>
+    <string name="str_vertical">Vertical</string>
+    <string name="str_horizontal">Horizontal</string>
+    <string name="toast_failed_low_memory">Failed! low memory</string>
+    <string name="str_information">Information</string>
+    <string name="dialog_exit_tittle">Do you want to exit ?</string>
+
+
+    <string name="create_shortcut">Create Shortcut</string>
+
+
+    <string name="sodk_editor_color" translatable="false">Color</string>
+    <string name="sodk_editor_background" translatable="false"> Background</string>
+    <string name="GETTING_STARTED" translatable="false"> Getting Started.pdf</string>
+    <string name="USER_GUIDE" translatable="false"> User Guide.pdf</string>
+    <string name="articles_list_fragment_error_message" translatable="false"> Failed to get articles</string>
+    <string name="articles_list_fragment_no_articles_found" translatable="false"> No articles found</string>
+    <string name="ask_request_list_failed_request_message" translatable="false"> Message failed</string>
+    <string name="belvedere_dialog_camera" translatable="false"> Camera</string>
+    <string name="belvedere_dialog_gallery" translatable="false"> Gallery</string>
+    <string name="belvedere_fam_desc_collapse_fam" translatable="false"> Collapse Floating Action Menu</string>
+    <string name="belvedere_fam_desc_expand_fam" translatable="false"> Expand Floating Action Menu</string>
+    <string name="belvedere_fam_desc_open_gallery" translatable="false"> Import file from gallery</string>
+    <string name="belvedere_fam_desc_open_google_photos" translatable="false"> Import image from Google Photos</string>
+    <string name="belvedere_image_stream_file_too_large" translatable="false"> File too large</string>
+    <string name="belvedere_image_stream_title" translatable="false"> Photo library</string>
+    <string name="belvedere_image_stream_unknown_app" translatable="false"> @string/request_attachment_generic_unknown_app</string>
+    <string name="belvedere_permissions_denied" translatable="false"> Permissions denied</string>
+    <string name="belvedere_sdk_fpa_suffix_v2" translatable="false"> .belvedere2.attachments</string>
+    <string name="belvedere_stream_item_camera_tile_desc" translatable="false"> Import image from camera</string>
+    <string name="belvedere_stream_item_select_file_desc" translatable="false"> Select file %s</string>
+    <string name="belvedere_stream_item_select_image_desc" translatable="false"> Select image %s</string>
+    <string name="belvedere_stream_item_unselect_file_desc" translatable="false"> Unselect file %s</string>
+    <string name="belvedere_stream_item_unselect_image_desc" translatable="false"> Unselect image %s</string>
+    <string name="belvedere_toolbar_desc_collapse" translatable="false"> Close image picker</string>
+    <string name="blocked_ip_error_message" translatable="false"> You are attempting to log in to Box from a location that has not been approved by your admin. Please talk to your admin to resolve this issue.</string>
+    <string name="bottom_sheet_behavior" translatable="false"> android.supportv1.design.widget.BottomSheetBehavior</string>
+    <string name="boxsdk_Authenticating" translatable="false"> Authenticating</string>
+    <string name="boxsdk_Authentication_cancelled" translatable="false"> Authentication Cancelled</string>
+    <string name="boxsdk_Authentication_fail" translatable="false"> Authentication Failed</string>
+    <string name="boxsdk_Authentication_fail_forbidden" translatable="false"> Contact your administrator to authorize this device.</string>
+    <string name="boxsdk_Authentication_fail_url_mismatch" translatable="false"> The redirect url is not valid</string>
+    <string name="boxsdk_Cancel" translatable="false"> Cancel</string>
+    <string name="boxsdk_Continue" translatable="false"> Continue</string>
+    <string name="boxsdk_Create_folder" translatable="false"> Create folder</string>
+    <string name="boxsdk_Go_back" translatable="false"> Go back</string>
+    <string name="boxsdk_Please_wait" translatable="false"> Please wait…</string>
+    <string name="boxsdk_Security_Warning" translatable="false"> Security Warning</string>
+    <string name="boxsdk_Select" translatable="false"> Select</string>
+    <string name="boxsdk_Select_an_account_to_use" translatable="false"> Select an account to use</string>
+    <string name="boxsdk_There_are_problems_with_the_security_certificate_for_this_site" translatable="false"> There are problems with the security certificate for this site.</string>
+    <string name="boxsdk_Use_a_different_account" translatable="false"> Use a different account</string>
+    <string name="boxsdk_alert_dialog_cancel" translatable="false"> Cancel</string>
+    <string name="boxsdk_alert_dialog_ok" translatable="false"> Submit</string>
+    <string name="boxsdk_alert_dialog_password" translatable="false"> Password</string>
+    <string name="boxsdk_alert_dialog_text_entry" translatable="false"> This website or application is requesting authentication.</string>
+    <string name="boxsdk_alert_dialog_username" translatable="false"> Username</string>
+    <string name="boxsdk_button_ok" translatable="false"> OK</string>
+    <string name="boxsdk_button_okay" translatable="false"> OKAY</string>
+    <string name="boxsdk_common_name" translatable="false"> common name:</string>
+    <string name="boxsdk_details" translatable="false"> Details</string>
+    <string name="boxsdk_error_fatal_refresh" translatable="false"> You have been logged out.</string>
+    <string name="boxsdk_error_network_connection" translatable="false"> Unable to detect a network connection</string>
+    <string name="boxsdk_error_terms_of_service" translatable="false"> Your administrator has changed your TOS. You must login, and accept the TOS to continue.</string>
+    <string name="boxsdk_expires_on" translatable="false"> expires on:</string>
+    <string name="boxsdk_fingerprints" translatable="false"> fingerprints:</string>
+    <string name="boxsdk_issued_by" translatable="false"> issued by:</string>
+    <string name="boxsdk_issued_on" translatable="false"> issued on:</string>
+    <string name="boxsdk_issued_to" translatable="false"> issued to:</string>
+    <string name="boxsdk_no_offline_access" translatable="false"> No offline access</string>
+    <string name="boxsdk_no_offline_access_detail" translatable="false"> "We couldn't detect a network connection."</string>
+    <string name="boxsdk_no_offline_access_todo" translatable="false"> To log in, connect to a WiFi or mobile data network.</string>
+    <string name="boxsdk_org_name" translatable="false"> organization name:</string>
+    <string name="boxsdk_org_unit" translatable="false"> organization unit:</string>
+    <string name="boxsdk_screen_overlay_error_message" translatable="false"> For your security you must disable screen dimmers or brightness correction applications to continue.</string>
+    <string name="boxsdk_screen_overlay_error_title" translatable="false"> Screen overlay detected</string>
+    <string name="boxsdk_serial_number" translatable="false"> serial number:</string>
+    <string name="boxsdk_sha1_fingerprint" translatable="false"> sha 1:</string>
+    <string name="boxsdk_sha256_fingerprint" translatable="false"> sha 256:</string>
+    <string name="boxsdk_ssl_error_details" translatable="false"> View details</string>
+    <string name="boxsdk_ssl_error_warning_DATE_INVALID" translatable="false"> The date of the certificate is invalid.</string>
+    <string name="boxsdk_ssl_error_warning_EXPIRED" translatable="false"> The certificate has expired.</string>
+    <string name="boxsdk_ssl_error_warning_ID_MISMATCH" translatable="false"> Hostname mismatch.</string>
+    <string name="boxsdk_ssl_error_warning_INVALID" translatable="false"> A generic error occurred.</string>
+    <string name="boxsdk_ssl_error_warning_NOT_YET_VALID" translatable="false"> The certificate is not yet valid.</string>
+    <string name="boxsdk_ssl_error_warning_UNTRUSTED" translatable="false"> The certificate authority is not trusted.</string>
+    <string name="boxsdk_ssl_should_not_proceed" translatable="false"> You should not proceed, especially if you have never seen this warning before for this site.</string>
+    <string name="boxsdk_title_activity_oauth" translatable="false"> OAuthActivity</string>
+    <string name="boxsdk_unable_to_connect" translatable="false"> Unable to connect</string>
+    <string name="boxsdk_unable_to_connect_detail" translatable="false"> We were unable to connect to your network.</string>
+    <string name="boxsdk_unable_to_connect_todo" translatable="false"> Check your network connection and try again.</string>
+    <string name="boxsdk_validity_period" translatable="false"> validity period:</string>
+    <string name="categories_list_fragment_error_message" translatable="false"> Failed to get categories</string>
+    <string name="character_counter_content_description" translatable="false"> Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern" translatable="false"> %1$d / %2$d</string>
+    <string name="contact_fragment_title" translatable="false"> Contact us</string>
+    <string name="error_msg_invalid_email" translatable="false"> Enter valid email address</string>
+    <string name="error_msg_invalid_message" translatable="false"> Enter your message</string>
+    <string name="error_msg_invalid_name" translatable="false"> Enter your full name</string>
+    <string name="fab_transformation_scrim_behavior" translatable="false"> android.supportv1.design.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior" translatable="false"> android.supportv1.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="help_search_no_results_label" translatable="false"> No results for</string>
+    <string name="help_search_subtitle_format" translatable="false"> %1$s • %2$s</string>
+    <string name="help_see_all_articles_label" translatable="false"> See all articles</string>
+    <string name="help_see_all_n_articles_label" translatable="false"> See all %d articles</string>
+    <string name="hide_bottom_view_on_scroll_behavior" translatable="false"> android.supportv1.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="mtrl_chip_close_icon_content_description" translatable="false"> Remove %1$s</string>
+    <string name="network_activity_no_connectivity" translatable="false"> No connection</string>
+    <string name="password_toggle_content_description" translatable="false"> Show password</string>
+    <string name="request_activity_title" translatable="false"> @string/contact_fragment_title</string>
+    <string name="request_attachment_generic_unknown_app" translatable="false"> Unknown</string>
+    <string name="request_dialog_body_unsaved_changes" translatable="false"> Going back will delete your message. Are you sure you want to delete it?</string>
+    <string name="request_dialog_button_label_cancel" translatable="false"> Cancel</string>
+    <string name="request_dialog_button_label_delete" translatable="false"> Delete</string>
+    <string name="request_dialog_title_unsaved_changes" translatable="false"> Message not sent</string>
+    <string name="request_email_entry_hint" translatable="false"> Email</string>
+    <string name="request_error_create_request" translatable="false"> Failed to create request</string>
+    <string name="request_error_load_comments" translatable="false"> Failed to load comments</string>
+    <string name="request_file_attachment_download_in_progress" translatable="false"> File download in progress</string>
+    <string name="request_list_activity_title" translatable="false"> My tickets</string>
+    <string name="request_list_empty_start_conversation" translatable="false"> START A CONVERSATION</string>
+    <string name="request_list_empty_text" translatable="false"> Conversations started from this app will be visible here.</string>
+    <string name="request_list_error_message" translatable="false"> @string/request_list_fragment_error_message</string>
+    <string name="request_list_fragment_error_message" translatable="false"> Failed to get tickets</string>
+    <string name="request_list_me" translatable="false"> Me</string>
+    <string name="request_list_re" translatable="false"> Re: %s</string>
+    <string name="request_list_ticket_closed" translatable="false"> Ticket Closed</string>
+    <string name="request_menu_button_label_add_attachments" translatable="false"> Add attachments</string>
+    <string name="request_menu_button_label_send" translatable="false"> Send</string>
+    <string name="request_message_date_today" translatable="false"> TODAY</string>
+    <string name="request_message_date_yesterday" translatable="false"> YESTERDAY</string>
+    <string name="request_message_entry_hint" translatable="false"> Message</string>
+    <string name="request_message_inline_image_title_format" translatable="false"> [%1$s]</string>
+    <string name="request_message_status_delivered" translatable="false"> Delivered</string>
+    <string name="request_messages_status_error" translatable="false"> Message failed. Tap to retry</string>
+    <string name="request_name_entry_hint" translatable="false"> Name</string>
+    <string name="request_retry_dialog_delete_message" translatable="false"> Delete message</string>
+    <string name="request_retry_dialog_retry" translatable="false"> Retry sending</string>
+    <string name="request_system_message_closed_ticket" translatable="false"> This conversation has been closed.</string>
+    <string name="request_toolbar_last_reply" translatable="false"> Last reply %s</string>
+    <string name="request_write_a_message" translatable="false"> Write a message</string>
+    <string name="retry_view_button_label" translatable="false"> Retry</string>
+    <string name="search_menu_title" translatable="false"> Search</string>
+    <string name="sections_list_fragment_error_message" translatable="false"> Failed to get sections</string>
+    <string name="sodk_IAP_PRO" translatable="false"> PRO</string>
+    <string name="sodk_about" translatable="false"> About</string>
+    <string name="sodk_app_chooser_title" translatable="false"> Complete action using</string>
+    <string name="sodk_app_name" translatable="false"> Office Editor</string>
+    <string name="sodk_auth_authenticate" translatable="false"> Authenticate</string>
+    <string name="sodk_auth_cancelled_desc" translatable="false"> Authentication Required. Please Authenticate.</string>
+    <string name="sodk_auth_cancelled_title" translatable="false"> Authentication Cancelled</string>
+    <string name="sodk_auth_require_screen_lock_desc" translatable="false"> Enter Device Screen Lock</string>
+    <string name="sodk_auth_require_screen_lock_title" translatable="false"> Device Screen Lock Required</string>
+    <string name="sodk_auth_screen_lock_set" translatable="false"> Set</string>
+    <string name="sodk_certificate_common_name" translatable="false"> Common Name (CN)</string>
+    <string name="sodk_certificate_country" translatable="false"> Country ©</string>
+    <string name="sodk_certificate_details" translatable="false"> Certificate Details</string>
+    <string name="sodk_certificate_email" translatable="false"> Email</string>
+    <string name="sodk_certificate_org" translatable="false"> Organisation (O)</string>
+    <string name="sodk_certificate_org_unit" translatable="false"> Organizational Unit (OU)</string>
+    <string name="sodk_certificate_sign" translatable="false"> Sign</string>
+    <string name="sodk_certificate_verify" translatable="false"> Verify</string>
+    <string name="sodk_certificate_verify_digest_failure" translatable="false"> Document digest failure</string>
+    <string name="sodk_certificate_verify_failed" translatable="false"> Verification failed</string>
+    <string name="sodk_certificate_verify_has_changes" translatable="false"> This signature is valid, but there have been changes made to the document since it was signed</string>
+    <string name="sodk_certificate_verify_no_changes" translatable="false"> This signature is valid, and there have been no changes made to the document since it was signed</string>
+    <string name="sodk_certificate_verify_not_trusted" translatable="false"> This signature is not trusted</string>
+    <string name="sodk_certificate_verify_ok" translatable="false"> Signature valid</string>
+    <string name="sodk_certificate_verify_title" translatable="false"> Document Signature Verification</string>
+    <string name="sodk_certificate_verify_warning" translatable="false"> Signature warning</string>
+    <string name="sodk_certificates" translatable="false"> Available Certificates</string>
+    <string name="sodk_dlp_prevents_open_message" translatable="false"> The current data leakage policy prevents opening files from non-secure apps</string>
+    <string name="sodk_dlp_prevents_open_title" translatable="false"> This file could not be opened</string>
+    <string name="sodk_editor_Australia" translatable="false"> Australia</string>
+    <string name="sodk_editor_Canada" translatable="false"> Canada</string>
+    <string name="sodk_editor_China" translatable="false"> China</string>
+    <string name="sodk_editor_India" translatable="false"> India</string>
+    <string name="sodk_editor_Japan" translatable="false"> Japan</string>
+    <string name="sodk_editor_Korea" translatable="false"> Korea</string>
+    <string name="sodk_editor_New_Zealand" translatable="false"> New Zealand</string>
+    <string name="sodk_editor_OK" translatable="false"> OK</string>
+    <string name="sodk_editor_Singapore" translatable="false"> Singapore</string>
+    <string name="sodk_editor_South_Africa" translatable="false"> South Africa</string>
+    <string name="sodk_editor_United_Kingdom" translatable="false"> United Kingdom</string>
+    <string name="sodk_editor_United_States" translatable="false"> United States</string>
+    <string name="sodk_editor_accept_upper" translatable="false"> ACCEPT</string>
+    <string name="sodk_editor_all" translatable="false"> All</string>
+    <string name="sodk_editor_arrange_upper" translatable="false"> ARRANGE</string>
+    <string name="sodk_editor_as_eighths" translatable="false"> As Eighths</string>
+    <string name="sodk_editor_as_halves" translatable="false"> As Halves</string>
+    <string name="sodk_editor_as_hundredths" translatable="false"> As Hundredths</string>
+    <string name="sodk_editor_as_quarters" translatable="false"> As Quarters</string>
+    <string name="sodk_editor_as_sixteenths" translatable="false"> As Sixteenths</string>
+    <string name="sodk_editor_as_tenths" translatable="false"> As Tenths</string>
+    <string name="sodk_editor_author_dialog_title" translatable="false"> Author</string>
+    <string name="sodk_editor_author_upper" translatable="false"> AUTHOR</string>
+    <string name="sodk_editor_autosum_text" translatable="false"> SUM(first_cell:last_cell)</string>
+    <string name="sodk_editor_cancel" translatable="false"> Cancel</string>
+    <string name="sodk_editor_cant_change_extension" translatable="false"> "You can't change the extension from \"%1$s\" to \"%2$s\"."</string>
+    <string name="sodk_editor_cant_create_temp_file" translatable="false"> "Could not create temporary file %s Have storage permissions been granted?"</string>
+    <string name="sodk_editor_cant_review_doc_body" translatable="false"> "Review actions are not supported for Office 1997–2007 format documents. Please use Office on a desktop computer to convert the file to the newer format."</string>
+    <string name="sodk_editor_cell_height_upper" translatable="false"> CELL HEIGHT</string>
+    <string name="sodk_editor_cell_width_upper" translatable="false"> CELL WIDTH</string>
+    <string name="sodk_editor_cellbox_last_value" translatable="false"> " "</string>
+    <string name="sodk_editor_changed_paragraph_properties" translatable="false"> Changed paragraph properties</string>
+    <string name="sodk_editor_changed_run_properties" translatable="false"> Changed run properties</string>
+    <string name="sodk_editor_changed_section_properties" translatable="false"> Changed section properties</string>
+    <string name="sodk_editor_changed_table_cell_properties" translatable="false"> Changed table cell properties</string>
+    <string name="sodk_editor_changed_table_grid" translatable="false"> Changed Table Grid</string>
+    <string name="sodk_editor_changed_table_properties" translatable="false"> Changed table properties</string>
+    <string name="sodk_editor_changed_table_row_properties" translatable="false"> Changed table row properties</string>
+    <string name="sodk_editor_clear_text" translatable="false"> Clear text</string>
+    <string name="sodk_editor_cm" translatable="false"> cm</string>
+    <string name="sodk_editor_comment_upper" translatable="false"> COMMENT</string>
+    <string name="sodk_editor_confirm_logout_message" translatable="false"> Confirm log out or cancel</string>
+    <string name="sodk_editor_confirm_logout_title" translatable="false"> Log out from %s</string>
+    <string name="sodk_editor_connection_error_body" translatable="false"> You are not connected to the internet. Check your connection and try again.</string>
+    <string name="sodk_editor_connection_error_title" translatable="false"> Connection Error</string>
+    <string name="sodk_editor_content_error" translatable="false"> content:// error</string>
+    <string name="sodk_editor_continue_editing" translatable="false"> Continue editing</string>
+    <string name="sodk_editor_copy" translatable="false"> Copy</string>
+    <string name="sodk_editor_copy_same_file" translatable="false"> You cannot copy a file to itself. Please choose another name or location for the copy.</string>
+    <string name="sodk_editor_copy_upper" translatable="false"> COPY</string>
+    <string name="sodk_editor_create_new" translatable="false"> Create New</string>
+    <string name="sodk_editor_cut_upper" translatable="false"> CUT</string>
+    <string name="sodk_editor_datetime_upper" translatable="false"> DATE/TIME</string>
+    <string name="sodk_editor_default_name_document" translatable="false"> Document</string>
+    <string name="sodk_editor_default_name_presentation" translatable="false"> Presentation</string>
+    <string name="sodk_editor_default_name_spreadsheet" translatable="false"> Spreadsheet</string>
+    <string name="sodk_editor_delete" translatable="false"> Delete</string>
+    <string name="sodk_editor_delete_comment_upper" translatable="false"> "DELETE COMMENT"</string>
+    <string name="sodk_editor_delete_upper" translatable="false"> DELETE</string>
+    <string name="sodk_editor_delete_worksheet_q" translatable="false"> Delete Worksheet?</string>
+    <string name="sodk_editor_deleted_text" translatable="false"> Deleted text</string>
+    <string name="sodk_editor_deleting" translatable="false"> Deleting…</string>
+    <string name="sodk_editor_device_files" translatable="false"> Device Files</string>
+    <string name="sodk_editor_discard" translatable="false"> Discard</string>
+    <string name="sodk_editor_dismiss" translatable="false"> Dismiss</string>
+    <string name="sodk_editor_do_you_really_want_to_delete" translatable="false"> Do you really want to delete \"%s\"?</string>
+    <string name="sodk_editor_do_you_want_to_delete_the_sheet" translatable="false"> Do you want to delete the sheet \"</string>
+    <string name="sodk_editor_doc_open_error" translatable="false"> There was an error (%d) opening the document.</string>
+    <string name="sodk_editor_doc_uses_unsupported_enc" translatable="false"> Document uses unsupported encryption</string>
+    <string name="sodk_editor_document_has_been_modified" translatable="false"> There are unsaved changes</string>
+    <string name="sodk_editor_download" translatable="false"> Download</string>
+    <string name="sodk_editor_downloading" translatable="false"> Downloading…</string>
+    <string name="sodk_editor_draw_upper" translatable="false"> DRAW</string>
+    <string name="sodk_editor_edit_font" translatable="false"> Edit Font</string>
+    <string name="sodk_editor_edit_function" translatable="false"> Edit Function</string>
+    <string name="sodk_editor_engineering_upper" translatable="false"> ENGINEERING</string>
+    <string name="sodk_editor_enter_a_new_name" translatable="false"> Enter a new name for \"%s\":</string>
+    <string name="sodk_editor_error" translatable="false"> Error</string>
+    <string name="sodk_editor_error_copying_from_remote" translatable="false"> Error copying from remote.</string>
+    <string name="sodk_editor_error_opening" translatable="false"> "Error opening "</string>
+    <string name="sodk_editor_error_opening_from_other_app" translatable="false"> Error opening document sent from another app</string>
+    <string name="sodk_editor_error_renaming_file" translatable="false"> Error renaming file.</string>
+    <string name="sodk_editor_error_saving_document" translatable="false"> Error saving document.</string>
+    <string name="sodk_editor_error_saving_document_code" translatable="false"> Error saving document: SOError=%d</string>
+    <string name="sodk_editor_explore" translatable="false"> Explore</string>
+    <string name="sodk_editor_file_already_exists" translatable="false"> File already exits. Choose a different name.</string>
+    <string name="sodk_editor_file_already_exists2" translatable="false"> \"%s\" already exists.</string>
+    <string name="sodk_editor_file_name" translatable="false"> File Name</string>
+    <string name="sodk_editor_file_size" translatable="false"> File Size</string>
+    <string name="sodk_editor_financial_upper" translatable="false"> FINANCIAL</string>
+    <string name="sodk_editor_find" translatable="false"> Search</string>
+    <string name="sodk_editor_first_page_upper" translatable="false"> FIRST PAGE</string>
+    <string name="sodk_editor_format_category_accounting" translatable="false"> Accounting</string>
+    <string name="sodk_editor_format_category_currency" translatable="false"> Currency</string>
+    <string name="sodk_editor_format_category_custom" translatable="false"> Custom</string>
+    <string name="sodk_editor_format_category_date_and_time" translatable="false"> Date and Time</string>
+    <string name="sodk_editor_format_category_fraction" translatable="false"> Fraction</string>
+    <string name="sodk_editor_format_category_general" translatable="false"> General</string>
+    <string name="sodk_editor_format_category_number" translatable="false"> Number</string>
+    <string name="sodk_editor_format_category_percentage" translatable="false"> Percentage</string>
+    <string name="sodk_editor_fullscreen_warning" translatable="false"> "Tap the screen at any time to leave fullscreen mode."</string>
+    <string name="sodk_editor_fx" translatable="false"> fx</string>
+    <string name="sodk_editor_getting_started" translatable="false"> Getting Started</string>
+    <string name="sodk_editor_go_up" translatable="false"> Go up</string>
+    <string name="sodk_editor_highlight_upper" translatable="false"> HIGHLIGHT</string>
+    <string name="sodk_editor_image_upper" translatable="false"> IMAGE</string>
+    <string name="sodk_editor_ime_action_label_done" translatable="false"> Done</string>
+    <string name="sodk_editor_information_upper" translatable="false">INFORMATION</string>
+    <string name="sodk_editor_insert_image_gone_body" translatable="false">"The selected image can't be inserted. It may have been deleted or moved."</string>
+    <string name="sodk_editor_insert_image_gone_title" translatable="false">Unable to insert image</string>
+    <string name="sodk_editor_inserted_paragraph" translatable="false">Inserted paragraph</string>
+    <string name="sodk_editor_inserted_table_cell" translatable="false">Inserted table cell</string>
+    <string name="sodk_editor_inserted_table_row" translatable="false">Inserted table row</string>
+    <string name="sodk_editor_inserted_text" translatable="false">Inserted text</string>
+    <string name="sodk_editor_invalid_file_name" translatable="false">Invalid file name.</string>
+    <string name="sodk_editor_is_a_directory" translatable="false">\"%s\" is a directory. Directories cannot be deleted.</string>
+    <string name="sodk_editor_keep_searching" translatable="false">Keep searching?</string>
+    <string name="sodk_editor_last_page_upper" translatable="false">LAST PAGE</string>
+    <string name="sodk_editor_last_viewed" translatable="false">Last Viewed</string>
+    <string name="sodk_editor_like_to_retain" translatable="false">Would you like to update the author name, or retain the current one?</string>
+    <string name="sodk_editor_loading_please_wait" translatable="false">Loading, please wait.</string>
+    <string name="sodk_editor_log_out" translatable="false">Log out</string>
+    <string name="sodk_editor_logical_upper" translatable="false">LOGICAL</string>
+    <string name="sodk_editor_lookup_upper" translatable="false">LOOKUP</string>
+    <string name="sodk_editor_maths_upper" translatable="false">MATHS</string>
+    <string name="sodk_editor_menu" translatable="false">Menu</string>
+    <string name="sodk_editor_merge_cells_upper" translatable="false">MERGE CELLS</string>
+    <string name="sodk_editor_more" translatable="false">More</string>
+    <string name="sodk_editor_my_documents" translatable="false">My Documents</string>
+    <string name="sodk_editor_my_documents2" translatable="false">My Documents (internal)</string>
+    <string name="sodk_editor_my_font_name" translatable="false">My Font Name</string>
+    <string name="sodk_editor_n_thru_n_of_n" formatted="false" translatable="false">%d-%d OF %d</string>
+    <string name="sodk_editor_nav_back" translatable="false">Go Back</string>
+    <string name="sodk_editor_new_intent_body" translatable="false">Opening a new document will lose changes made to another document</string>
+    <string name="sodk_editor_new_intent_no_button" translatable="false">Continue with previous document</string>
+    <string name="sodk_editor_new_intent_title" translatable="false">Edit session already in progress</string>
+    <string name="sodk_editor_new_intent_yes_button" translatable="false">Open a new document</string>
+    <string name="sodk_editor_new_name" translatable="false">new name</string>
+    <string name="sodk_editor_next_link_upper" translatable="false">NEXT</string>
+    <string name="sodk_editor_next_upper" translatable="false">NEXT</string>
+    <string name="sodk_editor_no" translatable="false">No</string>
+    <string name="sodk_editor_no_apps_can_perform" translatable="false">No apps can perform this action.</string>
+    <string name="sodk_editor_no_documents_found" translatable="false">No documents found</string>
+    <string name="sodk_editor_no_media_hint" translatable="false">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="sodk_editor_no_media_warning" translatable="false">Storage media not present</string>
+    <string name="sodk_editor_no_more_found" translatable="false">No more found</string>
+    <string name="sodk_editor_not_supported" translatable="false">Not supported</string>
+    <string name="sodk_editor_not_yet_supported" translatable="false">not yet supported</string>
+    <string name="sodk_editor_note_upper" translatable="false">NOTE</string>
+    <string name="sodk_editor_number_format_accounting" translatable="false">Number Format - Accounting</string>
+    <string name="sodk_editor_number_format_currency" translatable="false">Number Format - Currency</string>
+    <string name="sodk_editor_number_format_custom" translatable="false">Number Format - Custom</string>
+    <string name="sodk_editor_number_format_date_and_time" translatable="false">Number Format - Date and Time</string>
+    <string name="sodk_editor_number_format_fractions" translatable="false">Number Format - Fractions</string>
+    <string name="sodk_editor_number_format_number" translatable="false">Number Format - Number</string>
+    <string name="sodk_editor_number_format_percentage" translatable="false">Number Format - Percentage</string>
+    <string name="sodk_editor_number_format_upper" translatable="false">"NUMBER FORMAT"</string>
+    <string name="sodk_editor_ok" translatable="false">OK</string>
+    <string name="sodk_editor_open_in" translatable="false">Open In</string>
+    <string name="sodk_editor_open_in_upper" translatable="false">OPEN IN</string>
+    <string name="sodk_editor_open_pdf_in" translatable="false">Open PDF In</string>
+    <string name="sodk_editor_open_pdf_in_upper" translatable="false">OPEN PDF IN</string>
+    <string name="sodk_editor_page_d_of_d" formatted="false" translatable="false">PAGE %d OF %d</string>
+    <string name="sodk_editor_page_zd_of_d" formatted="false" translatable="false">PAGE %1$zd OF %d</string>
+    <string name="sodk_editor_pages_n_thru_n_of_n" formatted="false" translatable="false">PAGES %d-%d OF %d</string>
+    <string name="sodk_editor_password_for_document" translatable="false">Password for document:</string>
+    <string name="sodk_editor_paste_upper" translatable="false">PASTE</string>
+    <string name="sodk_editor_permission_denied" translatable="false">Permission Denied</string>
+    <string name="sodk_editor_permission_final" translatable="false">Office Editor will now terminate.</string>
+    <string name="sodk_editor_permission_google_final" translatable="false">Sorry, you cannot access Google Drive.</string>
+    <string name="sodk_editor_permission_google_why" translatable="false">These permissions are necessary to choose your Google account. Would you like to try again?</string>
+    <string name="sodk_editor_permission_why" translatable="false">These permissions are necessary for Office Editor to open and save documents. Would you like to try again?</string>
+    <string name="sodk_editor_photo_upper" translatable="false">PHOTO</string>
+    <string name="sodk_editor_picker_title_App_Ver_Dir" translatable="false">%1$s %2$s: %3$s</string>
+    <string name="sodk_editor_please_wait" translatable="false">Please wait…</string>
+    <string name="sodk_editor_present_upper" translatable="false">PRESENT</string>
+    <string name="sodk_editor_preview_icon" translatable="false">Preview</string>
+    <string name="sodk_editor_previous_link_upper" translatable="false">PREVIOUS</string>
+    <string name="sodk_editor_previous_upper" translatable="false">PREVIOUS</string>
+    <string name="sodk_editor_print_upper" translatable="false">PRINT</string>
+    <string name="sodk_editor_printing_not_supported_body" translatable="false">Printing is not supported for this version of Android.</string>
+    <string name="sodk_editor_printing_not_supported_title" translatable="false">Not Supported</string>
+    <string name="sodk_editor_protect_upper" translatable="false">PROTECT</string>
+    <string name="sodk_editor_recent" translatable="false">Recent</string>
+    <string name="sodk_editor_recent_documents" translatable="false">Recent Documents</string>
+    <string name="sodk_editor_redact_apply_upper" translatable="false">APPLY</string>
+    <string name="sodk_editor_redact_confirm_apply_body" translatable="false">Applying redactions cannot be undone. Do you want to continue?</string>
+    <string name="sodk_editor_redact_confirm_save" translatable="false">"This document contains redaction marks that have not yet been applied. Any content associated with these marks will still be present until they are applied.
+Are you sure you want to continue?"</string>
+    <string name="sodk_editor_redact_mark_upper" translatable="false">MARK</string>
+    <string name="sodk_editor_redact_remove_upper" translatable="false">REMOVE</string>
+    <string name="sodk_editor_reflow_upper" translatable="false">REFLOW</string>
+    <string name="sodk_editor_reject_upper" translatable="false">REJECT</string>
+    <string name="sodk_editor_rename" translatable="false">Rename</string>
+    <string name="sodk_editor_rename_error" translatable="false">Error renaming the file.</string>
+    <string name="sodk_editor_rename_upper" translatable="false">RENAME</string>
+    <string name="sodk_editor_renaming" translatable="false">Renaming…</string>
+    <string name="sodk_editor_replace_file_body" translatable="false">That file already exists. Do you want to replace it?</string>
+    <string name="sodk_editor_replace_file_title" translatable="false">File Exists</string>
+    <string name="sodk_editor_retain" translatable="false">Retain</string>
+    <string name="sodk_editor_save" translatable="false">Save</string>
+    <string name="sodk_editor_save_as_upper" translatable="false">SAVE AS</string>
+    <string name="sodk_editor_save_pdf_upper" translatable="false">SAVE PDF</string>
+    <string name="sodk_editor_save_upper" translatable="false">SAVE</string>
+    <string name="sodk_editor_saved_body" translatable="false">File save is complete.</string>
+    <string name="sodk_editor_saved_title" translatable="false">Saved</string>
+    <string name="sodk_editor_scientific" translatable="false">Scientific</string>
+    <string name="sodk_editor_search" translatable="false">Search</string>
+    <string name="sodk_editor_searching" translatable="false">Searching</string>
+    <string name="sodk_editor_select_image" translatable="false">Select Image</string>
+    <string name="sodk_editor_shape_and_line_upper" translatable="false">"SHAPE AND LINE"</string>
+    <string name="sodk_editor_shape_upper" translatable="false">SHAPE</string>
+    <string name="sodk_editor_shapes" translatable="false">Shapes</string>
+    <string name="sodk_editor_share" translatable="false">Share</string>
+    <string name="sodk_editor_share_error_body" translatable="false">Error making local copy.</string>
+    <string name="sodk_editor_share_error_title" translatable="false">Share Error</string>
+    <string name="sodk_editor_share_upper" translatable="false">SHARE</string>
+    <string name="sodk_editor_share_with" translatable="false">Share With</string>
+    <string name="sodk_editor_sheet_d_of_d" formatted="false" translatable="false">SHEET %d OF %d</string>
+    <string name="sodk_editor_show_changes_upper" translatable="false"> "SHOW CHANGES"</string>
+    <string name="sodk_editor_smartoffice" translatable="false"> Office Editor</string>
+    <string name="sodk_editor_sort_menu" translatable="false"> Sort menu</string>
+    <string name="sodk_editor_statistical_upper" translatable="false"> STATISTICAL</string>
+    <string name="sodk_editor_stop" translatable="false"> Stop</string>
+    <string name="sodk_editor_storage" translatable="false"> Storage</string>
+    <string name="sodk_editor_str_continue" translatable="false"> Continue</string>
+    <string name="sodk_editor_sum_upper" translatable="false"> SUM</string>
+    <string name="sodk_editor_support" translatable="false"> Support</string>
+    <string name="sodk_editor_tab_annotate" translatable="false"> ANNOTATE</string>
+    <string name="sodk_editor_tab_edit" translatable="false"> EDIT</string>
+    <string name="sodk_editor_tab_file" translatable="false"> FILE</string>
+    <string name="sodk_editor_tab_find" translatable="false"> FIND</string>
+    <string name="sodk_editor_tab_format" translatable="false"> FORMAT</string>
+    <string name="sodk_editor_tab_formulas" translatable="false"> FORMULAS</string>
+    <string name="sodk_editor_tab_hidden" translatable="false"> HIDDEN</string>
+    <string name="sodk_editor_tab_insert" translatable="false"> INSERT</string>
+    <string name="sodk_editor_tab_pages" translatable="false"> PAGES</string>
+    <string name="sodk_editor_tab_redact" translatable="false"> REDACT</string>
+    <string name="sodk_editor_tab_review" translatable="false"> REVIEW</string>
+    <string name="sodk_editor_tab_single" translatable="false"> SINGLE</string>
+    <string name="sodk_editor_tab_slides" translatable="false"> SLIDES</string>
+    <string name="sodk_editor_templates" translatable="false"> Templates</string>
+    <string name="sodk_editor_text_upper" translatable="false"> TEXT</string>
+    <string name="sodk_editor_thousand_separator" translatable="false"> Thousand separator</string>
+    <string name="sodk_editor_title" translatable="false"> Title</string>
+    <string name="sodk_editor_toggle_upper" translatable="false"> TOGGLE</string>
+    <string name="sodk_editor_track_changes_upper" translatable="false"> "TRACK CHANGES"</string>
+    <string name="sodk_editor_two_decimal_places" translatable="false"> Two Decimal Places</string>
+    <string name="sodk_editor_unable_to_load_document_title" translatable="false"> Unable to load document</string>
+    <string name="sodk_editor_unsaved_signatures" translatable="false"> The document must be saved before the signature can be verified</string>
+    <string name="sodk_editor_up_to_one_digit" translatable="false"> Up to One Digit</string>
+    <string name="sodk_editor_up_to_three_digits" translatable="false"> Up to Three Digits</string>
+    <string name="sodk_editor_up_to_two_digits" translatable="false"> Up to Two Digits</string>
+    <string name="sodk_editor_update" translatable="false"> Update</string>
+    <string name="sodk_editor_upgrade" translatable="false"> Upgrade</string>
+    <string name="sodk_editor_uploading" translatable="false"> Uploading…</string>
+    <string name="sodk_editor_user_guide" translatable="false"> User Guide</string>
+    <string name="sodk_editor_version" translatable="false"> 1.0</string>
+    <string name="sodk_editor_version_format" translatable="false"> Office</string>
+    <string name="sodk_editor_version_title" translatable="false"> Version</string>
+    <string name="sodk_editor_wait" translatable="false"> Wait!</string>
+    <string name="sodk_editor_would_you_like_to_save_your_changes" translatable="false"> Save your changes or discard your changes?</string>
+    <string name="sodk_editor_xfa_body" translatable="false"> This document contains an XML Forms Office not supported by Office Editor. XFA was deprecated when the PDF 2.0 specification was released in 2015. The creator of the PDF can convert it to use AcroForms, which are supported. If appropriate, please contact your IT administrator for assistance.</string>
+    <string name="sodk_editor_xfa_title" translatable="false"> NoOfficeport</string>
+    <string name="sodk_editor_yes" translatable="false"> Office</string>
+    <string name="sodk_empty_file" translatable="false"> Empty file</string>
+    <string name="sodk_gd_exception_null_attacment" translatable="false"> Null attachment</string>
+    <string name="sodk_gd_exception_num_attacments" translatable="false"> Invalid number of attachments</string>
+    <string name="sodk_internal_error" translatable="false"> Internal error</string>
+    <string name="sodk_invalid_file" translatable="false"> Invalid or corrupt file</string>
+    <string name="sodk_issued_to" translatable="false"> Issued To</string>
+    <string name="sodk_library_annot_author_mupdf" translatable="false"> muPDF</string>
+    <string name="sodk_library_annot_author_so" translatable="false"> Office Editor</string>
+    <string name="sodk_library_app_name" translatable="false"> solib</string>
+    <string name="sodk_licence" translatable="false"> License</string>
+    <string name="sodk_no_certificates" translatable="false"> No certificates available - please contact your IT support</string>
+    <string name="sodk_password_protected_file" translatable="false"> Password protected file</string>
+    <string name="sodk_pro_popup_button" translatable="false"> UPGRADE OPTIONS</string>
+    <string name="sodk_pro_popup_message" translatable="false"> Track Changes and enhanced Password Protection capabilities are features of Office Editor PRO</string>
+    <string name="sodk_pro_popup_title" translatable="false"> PRO FEATURE</string>
+    <string name="sodk_settings" translatable="false"> Settings</string>
+    <string name="sodk_sis" translatable="false"> Blackberry Intelligent Security</string>
+    <string name="sodk_support_change_email" translatable="false"> Change Email Address</string>
+    <string name="sodk_support_contact_us" translatable="false"> Contact Us</string>
+    <string name="sodk_support_done" translatable="false"> Done</string>
+    <string name="sodk_support_email_body" translatable="false"> Please enter your email address so we can reply to you.</string>
+    <string name="sodk_support_email_title" translatable="false"> Email Address</string>
+    <string name="sodk_support_faq" translatable="false"> FAQ</string>
+    <string name="sodk_support_support" translatable="false"> Support</string>
+    <string name="sodk_support_view_my_requests" translatable="false"> View My Requests</string>
+    <string name="sodk_unsupported_file_type" translatable="false"> Office file type</string>
+    <string name="sodk_upgrade_options" translatable="false"> <u>Upgrade Options</u></string>
+    <string name="sodk_upload" translatable="false"> Upload</string>
+    <string name="sodk_upload_logs" translatable="false"> Upload Logs</string>
+    <string name="sodk_user_reject" translatable="false"> User rejected request</string>
+    <string name="sodk_version" translatable="false"> Version</string>
+    <string name="sodk_wheel_app_name" translatable="false"> wheel</string>
+    <string name="status_bar_notification_info_overflow" translatable="false"> 999+</string>
+    <string name="support_activity_title" translatable="false"> Support</string>
+    <string name="support_articles_list_fragment_error_message" translatable="false"> @string/articles_list_fragment_error_message</string>
+    <string name="support_articles_list_fragment_no_articles_found" translatable="false"> @string/articles_list_fragment_no_articles_found</string>
+    <string name="support_categories_list_fragment_error_message" translatable="false"> @string/categories_list_fragment_error_message</string>
+    <string name="support_conversations_menu" translatable="false"> Conversations</string>
+    <string name="support_help_search_no_results_label" translatable="false"> @string/help_search_no_results_label</string>
+    <string name="support_help_see_all_articles_label" translatable="false"> @string/help_see_all_articles_label</string>
+    <string name="support_help_see_all_n_articles_label" translatable="false"> @string/help_see_all_n_articles_label</string>
+    <string name="support_sections_list_fragment_error_message" translatable="false"> Office</string>
+    <string name="view_article_attachments_error" translatable="false"> Office</string>
+    <string name="view_article_html_body" translatable="false"> Office</string>
+    <string name="view_article_seperator" translatable="false"> Office</string>
+    <string name="view_article_vote_prompt" translatable="false"> WOffice</string>
+    <string name="zendesk_no_connectivity_error" translatable="false"> Office</string>
+    <string name="zendesk_retry_button_label" translatable="false"> Office</string>
+    <string name="zs_general_contact_us_button_label_accessibility" translatable="false"> Office</string>
+    <string name="zs_general_referrer_logo_label_accessibility" translatable="false"> Zendesk</string>
+    <string name="zs_help_center_content_loaded_accessibility" translatable="false"> Help Center loaded</string>
+    <string name="zs_help_center_search_loaded_accessibility" translatable="false"> Search results loaded</string>
+    <string name="zs_request_announce_comment_created_accessibility" translatable="false"> Comment with text %s sent.</string>
+    <string name="zs_request_announce_comment_failed_accessibility" translatable="false"> Unable to create comment with text %s.</string>
+    <string name="zs_request_announce_comments_loaded_accessibility" translatable="false"> Comments loaded.</string>
+    <string name="zs_request_attachment_carousel_attachment_accessibility" translatable="false"> Attached file with name %s.</string>
+    <string name="zs_request_attachment_carousel_remove_attachment_accessibility" translatable="false"> Remove attachment with name %s.</string>
+    <string name="zs_request_attachment_indicator_accessibility" translatable="false"> Select an attachment.</string>
+    <string name="zs_request_attachment_indicator_n_attachments_selected_accessibility" translatable="false"> There are %d attachments selected.</string>
+    <string name="zs_request_attachment_indicator_no_attachments_selected_accessibility" translatable="false"> There are no attachments selected.</string>
+    <string name="zs_request_attachment_indicator_one_attachments_selected_accessibility" translatable="false"> There is one attachment selected.</string>
+    <string name="zs_request_contact_option_leave_a_message" translatable="false"> Leave a message</string>
+    <string name="zs_request_list_content_load_failed_accessibility" translatable="false"> Support tickets failed to load</string>
+    <string name="zs_request_list_content_loaded_accessibility" translatable="false"> Support tickets loaded</string>
+    <string name="zs_request_list_content_loaded_empty_accessibility" translatable="false"> No support tickets</string>
+    <string name="zs_request_list_content_loading_accessibility" translatable="false"> Loading support tickets</string>
+    <string name="zs_request_message_agent_file_accessibility" translatable="false"> Agent file attachment with name %s.</string>
+    <string name="zs_request_message_agent_image_accessibility" translatable="false"> Agent image attachment with name %s.</string>
+    <string name="zs_request_message_agent_sent_accessibility" translatable="false"> Sent by %1$s at %2$s.</string>
+    <string name="zs_request_message_agent_text_accessibility" translatable="false"> Agent message %s.</string>
+    <string name="zs_request_message_user_error_accessibility" translatable="false"> Failed to send. Tap for options.</string>
+    <string name="zs_request_message_user_file_accessibility" translatable="false"> File with name %s.</string>
+    <string name="zs_request_message_user_image_accessibility" translatable="false"> Image with name %s.</string>
+    <string name="zs_request_message_user_sent_accessibility" translatable="false"> Sent by you at %s</string>
+    <string name="zs_request_message_user_text_accessibility" translatable="false"> Message %s.</string>
+    <string name="zs_request_toolbar_accessibility" translatable="false"> Last reply by %1$s at %2$s.</string>
+    <string name="zs_view_article_error" translatable="false"> Failed to fetch article</string>
+    <string name="zs_view_article_loaded_accessibility" translatable="false"> %s article loaded</string>
+    <string name="zs_view_article_loading_title" translatable="false" />
+    <string name="zs_view_article_vote_no_accessibility" translatable="false"> No vote</string>
+    <string name="zs_view_article_vote_no_remove_accessibility" translatable="false"> Remove yes vote</string>
+    <string name="zs_view_article_vote_yes_accessibility" translatable="false"> Yes vote</string>
+    <string name="zs_view_article_vote_yes_remove_accessibility" translatable="false"> Remove no vote</string>
+    <string name="zs_view_article_voted_failed_accessibility_announce" translatable="false"> Vote failed</string>
+    <string name="zs_view_article_voted_no_accessibility_announce" translatable="false"> Voted no</string>
+    <string name="zs_view_article_voted_yes_accessibility_announce" translatable="false"> Voted yes</string>
+    <string name="zui_attachment_indicator_accessibility" translatable="false"> Select an attachment</string>
+    <string name="zui_attachment_indicator_n_attachments_selected_accessibility" translatable="false"> There are %d attachments selected</string>
+    <string name="zui_attachment_indicator_no_attachments_selected_accessibility" translatable="false"> There are no attachments selected</string>
+    <string name="zui_attachment_indicator_one_attachments_selected_accessibility" translatable="false"> There is one attachment selected</string>
+    <string name="zui_bot_label" translatable="false"> BOT</string>
+    <string name="zui_button_label_no" translatable="false"> No</string>
+    <string name="zui_button_label_yes" translatable="false"> Yes</string>
+    <string name="zui_cell_text_suggested_article_header" translatable="false"> "Here's an article that may help:"</string>
+    <string name="zui_cell_text_suggested_articles_header" translatable="false"> Here are some articles that may help:</string>
+    <string name="zui_failed_message_copy" translatable="false"> Copy</string>
+    <string name="zui_failed_message_delete" translatable="false"> Delete</string>
+    <string name="zui_failed_message_retry" translatable="false"> Retry</string>
+    <string name="zui_hint_type_message" translatable="false"> Type a message…</string>
+    <string name="zui_hint_write_a_message" translatable="false"> Write a message</string>
+    <string name="zui_label_dialog_delete_btn" translatable="false"> Delete message</string>
+    <string name="zui_label_dialog_retry_btn" translatable="false"> Retry sending</string>
+    <string name="zui_label_failed" translatable="false"> Failed</string>
+    <string name="zui_label_reconnecting" translatable="false"> Reconnecting…</string>
+    <string name="zui_label_retry_now" translatable="false"> Retry now</string>
+    <string name="zui_label_send" translatable="false"> Send</string>
+    <string name="zui_label_sent" translatable="false"> Sent</string>
+    <string name="zui_label_tap_retry" translatable="false"> Tap to retry</string>
+    <string name="zui_retry_button_label" translatable="false"> Retry</string>
+    <string name="scan_file" translatable="false"> Scan all files in your device</string>
+    <string name="scan_file_success" translatable="false"> Scan file success</string>
+    <string name="thank_scan_file" translatable="false"> Thanks for using app</string>
+    <string name="scan_file_nav" translatable="false"> Scan file</string>
+    <string name="template_create" translatable="false"> Template</string>
+    <string name="new_file_create" translatable="false"> Add file</string>
+    <string name="create_document" translatable="false"> Create document</string>
+    <string name="ads_text_button" translatable="false"> ADS</string>
+    <string name="txt" translatable="false"> TXT</string>
+    <string name="confirm" translatable="false"> Confirm</string>
+    <string name="rotate" translatable="false"> Rotate</string>
+    <string name="reflect" translatable="false"> Reflect</string>
+    <string name="crop" translatable="false"> Crop</string>
+    <string name="signature" translatable="false"> Signature</string>
+    <string name="filter" translatable="false"> Filter</string>
+    <string name="delete" translatable="false"> Delete</string>
+    <string name="save" translatable="false"> Save</string>
+    <string name="export_file" translatable="false"> Export File</string>
+    <string name="cancel_dialog" translatable="false"> Cancel</string>
+    <string name="oke_dialog" translatable="false"> Accept</string>
+    <string name="ocr" translatable="false"> OCR</string>
+    <string name="finish" translatable="false"> Finish</string>
+    <string name="edit" translatable="false"> Edit</string>
+    <string name="share" translatable="false"> Share</string>
+    <string name="cannot_reg_text" translatable="false"> Connot Reg Text</string>
+    <string name="gallery" translatable="false"> Gallery</string>
+    <string name="confirm_x" translatable="false"> Confirm</string>
+    <string name="ocr_text_file" translatable="false"> List File OCR</string>
+    <string name="please_sign_here" translatable="false"> Please sign here</string>
+    <string name="tab_reader" translatable="false"> Reader</string>
+    <string name="tab_recent" translatable="false"> Recent</string>
+    <string name="tab_boomark" translatable="false"> Bookmark</string>
+    <string name="tab_storage" translatable="false"> File</string>
+    <string name="image" translatable="false"> Image</string>
+    <string name="album" translatable="false"> Album</string>
+    <string name="skip" translatable="false"> Skip</string>
+    <string name="show_slide" translatable="false"> Show Slide</string>
+    <string name="new_file" translatable="false"> New File</string>
+    <string name="template" translatable="false"> Template</string>
+    <string name="hello_blank_fragment" translatable="false"> Hello blank fragment</string>
+    <string name="title_activity_settings" translatable="false"> SettingsActivity</string>
+    <string name="messages_header" translatable="false"> App Theme</string>
+    <string name="sync_header" translatable="false"> Sync</string>
+    <string name="signature_title" translatable="false"> Your signature</string>
+    <string name="reply_title" translatable="false"> Theme</string>
+    <string name="sync_title" translatable="false"> Sync email periodically</string>
+    <string name="attachment_title" translatable="false"> Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false"> Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off" translatable="false"> Only download attachments when manually requested</string>
+    <string name="todo" translatable="false"> Todo</string>
+    <string name="str_color_value" translatable="false"> Color Value</string>
+    <string name="dialog_sort_title">Sort By</string>
+    <string name="dialog_sort_by_name">By Name</string>
+    <string name="dialog_sort_by_date">By Date</string>
+    <string name="dialog_sort_by_size">By Size</string>
+    <string name="dialog_sort_order">Order</string>
+    <string name="dialog_sort_ascending">Ascending</string>
+    <string name="dialog_sort_descending">Descending</string>
+    <string name="str_action_apply">Apply</string>
+    <string name="str_action_delete">Delete</string>
+    <string name="str_action_clear_all">Clear ALL</string>
+    <string name="str_action_open">Open</string>
+    <string name="str_action_failed">Failed</string>
+    <string name="str_action_quit">Quit</string>
+    <string name="str_action_yes">Yes</string>
+    <string name="str_action_compressor">Compressor</string>
+    <string name="str_remove_ads">RemoveAds</string>
+    <string name="str_sponsored">Sponsored</string>
+    <string name="str_remove_favorite">Remove Favorite</string>
+    <string name="str_move_out">Move out</string>
+    <string name="str_share_via_photo">Share via photo</string>
+    <string name="str_view_image">View files</string>
+    <string name="str_action_view_pdf">View PDF</string>
+    <string name="str_action_rename">Rename</string>
+    <string name="str_action_start">Start</string>
+    <string name="str_action_setting">Settings</string>
+    <string name="str_action_continue">Continue</string>
+    <string name="str_go_to_set">Go to set</string>
+    <string name="str_tools">Tools</string>
+
+
+    <string name="str_pdf_created_toolbar" translatable="false"> Created</string>
+
+
+    <string name="toast_cant_compress_low_memory">Can\'t compress. Low memory!</string>
+    <string name="toast_merge_failed">Failed to merge. One or more files are corrupt or password protected</string>
+    <string name="toast_file_protected_unprotect">The file is protected, please unprotect</string>
+    <string name="toast_warning_share_photo">Too much photo selected! Choose below 50 items</string>
+    <string name="toast_file_password">File is now password protected!</string>
+    <string name="toast_please_set_password">Please set password!</string>
+    <string name="toast_this_file_is_protected">This file is protected!</string>
+    //Dialog
+
+    <string name="dialog_password_title">Enter password</string>
+    <string name="dialog_set_password_title">Set password</string>
+    <string name="dialog_remove_password_tittle"> Remove password</string>
+    <string name="dialog_remove_password_des">The file will no longer be protected</string>
+
+    <string name="dialog_password_body">You need to enter the password to open it.</string>
+    <string name="dialog_password_hint">Password</string>
+    <string name="dialog_delete_body">Are you sure want to delete? This action cannot be undone</string>
+    <string name="dialog_infor_path">Storage path</string>
+    <string name="dialog_infor_last_modified">Last modified</string>
+    <string name="dialog_file_name_tittle">File Name</string>
+    <string name="dialog_rename_title">Rename</string>
+    <string name="dialog_clear_tittle">Are you sure?</string>
+
+    <string name="dialog_clear_body_1">Recent list will be clear!</string>
+    <string name="dialog_clear_body_2">Favorite list will be clear!</string>
+    <string name="dialog_merge_exit_tittle">Quit merging?</string>
+    <string name="dialog_merge_content">The changes will not be saved. Are your sure you want to quit?</string>
+    <string name="dialog_convert_exit_tittle">Quit converting?</string>
+    <string name="dialog_split_exit_tittle">Quit splitting?</string>
+
+    <string name="dialog_remove_title">Move out of recent</string>
+    <string name="dialog_go_page_title">Jump to page</string>
+    <string name="dialog_go_page_body_hint">Enter page number</string>
+    <string name="dialog_go_page_invalid_page_number">Invalid page number</string>
+    <string name="dialog_rename_error">Same Name</string>
+    <string name="dialog_rename_fail">Failed to rename file</string>
+    <string name="dialog_rename_error_2">Invalid characters (@, #, $…)</string>
+    <string name="dialog_rate_middle_tip">The best we can get~</string>
+    <string name="dialog_rate_action">Rate</string>
+    <string name="dialog_rate_tip">Your 5-star rating is our best gift!</string>
+    <string name="dialog_rate_message">Your approval helps spread the word and grow our product!</string>
+
+    <string name="dialog_rate_tip_4_5_star">Yay!</string>
+    <string name="dialog_rate_tip_4_5_message">Thanks for your support!</string>
+    <string name="dialog_rate_tip_3_star">Oops…</string>
+    <string name="dialog_rate_tip_3_messege">Seems like you got some problems while using our app.</string>
+
+
+    <string name="dialog_tittle_exporting">Exporting images…</string>
+
+    //ToolBar Tittle
+    //Menu
+    <string name="menu_information">Information</string>
+
+    <string name="menu_info_document">Document Information</string>
+
+    <string name="converting">Converting…</string>
+    <string name="recent_cleared">Recent cleared</string>
+
+    <string name="navigation_dark_mode">Dark Mode</string>
+
+    <string name="authorization_to_all_files">Authorization required to read all files.</string>
+
+    <string name="img_add_to_favorites">Add files to Favorites for quick access</string>
+    <string name="empty_all_file">Your phone don\'t have any PDF files</string>
+    <string name="browse_pdf_des">You can open PDF files through Browse PDF.</string>
+    <string name="no_permissions">No permissions</string>
+    <string name="recovery_authorization_to_all_files">Permission is required to access all files</string>
+    <string name="img_files_appear_here">Your recently viewed files will appear here</string>
+    <string name="pdf_files_created_appear_here">Your pdf created files will appear here</string>
+
+    <string name="compressing">Compressing</string>
+    <string name="compressed">Compressed</string>
+    <string name="file_merging">Merging…</string>
+    <string name="file_splitting">Splitting…</string>
+    <string name="to">to</string>
+    <string name="reduced_from">Reduced from</string>
+
+
+    <string name="percent_sign" translatable="false">%</string>
+    <string name="converted_to_pdf">Converted to PDF successfully!</string>
+    <string name="merge_x">Merge (%s)</string>
+
+    <string name="save_image_progress">Image %1$s of %2$s</string>
+    <string name="x_percent_sign">%1$s </string>
+
+
+    <string name="album_name_all">All Media</string>
+    <string name="button_preview">Preview</string>
+    <string name="button_apply_default">Apply</string>
+    <string name="button_apply">Apply(%1$d)</string>
+    <string name="button_back">Back</string>
+    <string name="photo_grid_capture">Camera</string>
+    <string name="empty_text">No media yet</string>
+    <string name="error_over_count_default">You have reached max selectable</string>
+    <string name="error_over_count" translatable="false">You can only select up to %1$d media files</string>
+    <string name="error_under_quality">Under quality</string>
+    <string name="error_over_quality">Over quality</string>
+    <string name="error_file_type">Unsupported file type</string>
+    <string name="error_type_conflict">Can\'t select images and videos at the same time</string>
+    <string name="error_no_video_activity">No App found supporting video preview</string>
+    <string name="error_over_original_size" translatable="false">Can\'t select the images larger than %1$d MB</string>
+    <string name="error_over_original_count" translatable="false">%1$d images over %2$d MB. Original will be unchecked</string>
+    <string name="button_original">Original</string>
+
+    <string name="long_press_to_manual_sorting">Long press to sort manually</string>
+    // Tool Type
+    <string name="tool_tittle_your_pdf">Your PDF</string>
+    <string name="tool_tittle_merge">Merge PDF</string>
+    <string name="tool_tittle_print">Print</string>
+    <string name="tool_tittle_split">Split PDF</string>
+    <string name="tool_tittle_compress">Compress PDF</string>
+    <string name="tool_tittle_share_as_photo">Share as photo</string>
+    <string name="tool_tittle_image_to_pdf">Image to PDF</string>
+    <string name="tool_tittle_browse">Browse PDF</string>
+    <string name="tool_tittle_pdf_to_image">Save as Image</string>
+    <string name="tool_tittle_lock_pdf">Lock PDF</string>
+    <string name="tool_tittle_unlock_pdf">Unlock PDF</string>
+    <string name="tool_des_browse">You can select files from different folders on your devices</string>
+    <string name="tool_des_merge">Select multiple PDF files and merge them in seconds.</string>
+    <string name="tool_des_print">Print PDF files quickly from your phone.</string>
+    <string name="tool_des_split">Split a PDF file by page ranges or extract all PDF pages to multiple PDF files.</string>
+    <string name="tool_des_compress">Compress PDF files to reduce their size to meet your needs.</string>
+    <string name="tool_des_image_to_pdf">Convert images (jpg, jpeg, png, etc.) to PDF files</string>
+    <string name="tool_des_pdf_to_image">Export the specified pages of the PDF document as images</string>
+    <string name="tool_des_lock_pdf">Protect PDF documents by setting a password</string>
+    <string name="tool_des_your_pdf">Show all your PDF created</string>
+    <string name="tool_des_un_lock_pdf">Remove PDF password security, giving you the freedom to use your PDFs as you want</string>
+    <string name="more_features_coming_soon">More features coming soon</string>
+    <string name="utils_share_txt">Hey view/download this image</string>
+    <string name="utils_share_image_via">Share File via…</string>
+    <string name="file_already_locked">File Already Locked!</string>
+    <string name="locking">Locking…</string>
+    <string name="unlocking">Unlocking…</string>
+    <string name="unlocked_successfully">Unlocked successfully!</string>
+
+    <string name="version">Version:</string>
+    <string name="clear_all">Clear all recent list</string>
+    <string name="rate_app">Rate App</string>
+    <string name="str_splash_des"><![CDATA[Read & edit Excel anytime, anywhere]]></string>
+    <string name="str_all_pdf">All PDF</string>
+    <string name="str_favorite">Favorites</string>
+
+
+    <string name="remove_from_recent">Remove From Recent</string>
+    <string name="all_count" translatable="false">(%s)</string>
+
+    <string name="str_import_pdf">Import PDF</string>
+    <string name="str_more">More</string>
+    <string name="toast_need_permission">Need Permission!</string>
+    <string name="str_tool_pdf_pro">Tool PDF Pro</string>
+
+    <string name="AdmobInterstitialAds" translatable="false">ca-app-pub-6201944930453956/5400037153</string>
+    <string name="AdmobNativeAds" translatable="false">ca-app-pub-6201944930453956/5803529708</string>
+</resources>

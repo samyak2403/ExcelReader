@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.artifex.sonui.editor.SOTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/sodk_transparent"
+    android:gravity="center"
+    android:text="/"
+    android:textColor="@color/sodk_breadcrumb_tint"
+    android:textSize="24.0sp" />

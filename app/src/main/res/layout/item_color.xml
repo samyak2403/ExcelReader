@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/color_1"
+    android:layout_width="46dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:paddingStart="20dp">
+
+
+    <View
+        android:id="@+id/imgColor"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_color_1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/choose_color_iv1"
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_color_choosed"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="resize_mode">
+        <enum name="fill" value="3" />
+        <enum name="fit" value="0" />
+        <enum name="fixed_height" value="2" />
+        <enum name="fixed_width" value="1" />
+        <enum name="zoom" value="4" />
+    </attr>
+    <declare-styleable name="ItemSelectSort">
+        <attr name="textNameSort" format="string" />
+        <attr name="imgSort" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="hpb_colorBackground" format="color" />
+        <attr name="hpb_colorProgress" format="color" />
+        <attr name="hpb_progress" format="integer" />
+        <attr name="hpb_useRoundRect" format="boolean" />
+    </declare-styleable>
+    <attr name="arfl_ratioHeight" format="integer" />
+    <attr name="arfl_ratioWidth" format="integer" />
+    <attr name="srlTextSizeTime" format="dimension" /><!--时间字体-->
+    <declare-styleable name="TwoLevelHeader">
+        <attr name="srlMaxRage" format="float" />
+        <attr name="srlFloorRage" format="float" />
+        <attr name="srlRefreshRage" format="float" />
+        <attr name="srlMaxRate" format="float" />
+        <attr name="srlFloorRate" format="float" />
+        <attr name="srlRefreshRate" format="float" />
+        <attr name="srlFloorDuration" format="integer" />
+        <attr name="srlEnableTwoLevel" format="boolean" />
+        <attr name="srlEnableFloorRefresh" format="boolean" />
+        <attr name="srlFloorOpenLayoutRate" format="float" />
+        <attr name="srlFloorBottomDragLayoutRate" format="float" />
+        <attr name="srlEnablePullToCloseTwoLevel" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="BallPulseFooter">
+        <attr name="srlClassicsSpinnerStyle" />
+        <attr name="srlAnimatingColor" format="color" />
+        <attr name="srlNormalColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ClassicsHeader">
+        <attr name="srlClassicsSpinnerStyle" />
+        <attr name="srlPrimaryColor" />
+        <attr name="srlAccentColor" />
+        <attr name="srlFinishDuration" />
+        <attr name="srlDrawableArrow" />
+        <attr name="srlDrawableProgress" />
+        <attr name="srlDrawableMarginRight" />
+        <attr name="srlDrawableSize" />
+        <attr name="srlDrawableArrowSize" />
+        <attr name="srlDrawableProgressSize" />
+        <attr name="srlTextSizeTitle" />
+        <attr name="srlTextSizeTime" />
+        <attr name="srlTextTimeMarginTop" format="dimension" />
+        <attr name="srlEnableLastTime" format="boolean" />
+
+        <attr name="srlTextPulling" />
+        <attr name="srlTextLoading" />
+        <attr name="srlTextRelease" />
+        <attr name="srlTextFinish" />
+        <attr name="srlTextFailed" />
+        <attr name="srlTextUpdate" />
+        <attr name="srlTextSecondary" />
+        <attr name="srlTextRefreshing" />
+
+    </declare-styleable>
+    <attr name="layout_srlSpinnerStyle" format="enum">
+        <enum name="Translate" value="0" />
+        <enum name="Scale" value="1" />
+        <enum name="FixedBehind" value="2" />
+        <enum name="FixedFront" value="3" />
+        <enum name="MatchLayout" value="4" />
+    </attr>
+    <declare-styleable name="BezierRadarHeader">
+        <attr name="srlPrimaryColor" />
+        <attr name="srlAccentColor" />
+        <attr name="srlEnableHorizontalDrag" />
+    </declare-styleable>
+    <declare-styleable name="SmartRefreshLayout_Layout">
+        <attr name="layout_srlSpinnerStyle" />
+        <attr name="layout_srlBackgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ClassicsFooter">
+        <attr name="srlClassicsSpinnerStyle" />
+        <attr name="srlPrimaryColor" />
+        <attr name="srlAccentColor" />
+        <attr name="srlFinishDuration" />
+        <attr name="srlTextSizeTitle" />
+        <attr name="srlDrawableArrow" />
+        <attr name="srlDrawableProgress" />
+        <attr name="srlDrawableMarginRight" />
+        <attr name="srlDrawableSize" />
+        <attr name="srlDrawableArrowSize" />
+        <attr name="srlDrawableProgressSize" />
+
+        <attr name="srlTextPulling" />
+        <attr name="srlTextRelease" />
+        <attr name="srlTextLoading" />
+        <attr name="srlTextRefreshing" />
+        <attr name="srlTextFinish" />
+        <attr name="srlTextFailed" />
+        <attr name="srlTextNothing" />
+
+    </declare-styleable>
+    <attr name="srlFinishDuration" format="integer" /><!--完成时停留时间-->
+    <attr name="srlTextSizeTitle" />
+    <attr name="srlDrawableProgressSize" format="dimension" /><!--箭头图片尺寸-->
+    <attr name="srlEnableHorizontalDrag" format="boolean" /><!--支持水平拖动-->
+
+    <attr name="srlDrawableArrow" format="reference" /><!--箭头图片-->
+    <attr name="srlDrawableProgress" format="reference" /><!--转动图片-->
+    <attr name="srlDrawableMarginRight" format="dimension" /><!--图片和文字的间距-->
+    <attr name="srlDrawableArrowSize" format="dimension" /><!--箭头图片尺寸-->
+    <attr name="srlDrawableSize" format="dimension" /><!--图片尺寸-->
+    <attr name="srlTextPulling" format="string" />
+    <attr name="srlTextLoading" format="string" />
+    <attr name="srlTextRelease" format="string" />
+    <attr name="srlTextFinish" format="string" />
+    <attr name="srlTextFailed" format="string" />
+    <attr name="srlTextUpdate" format="string" />
+    <attr name="srlTextSecondary" format="string" />
+    <attr name="srlTextRefreshing" format="string" />
+    <attr name="srlTextNothing" format="string" />
+    <attr name="srlClassicsSpinnerStyle" format="enum">
+        <enum name="Translate" value="0" /><!--平行移动-->
+        <enum name="Scale" value="1" /><!--拉伸形变-->
+        <enum name="FixedBehind" value="2" /><!--固定在背后-->
+    </attr>
+    <attr name="srlAccentColor" format="color" />
+    <attr name="srlPrimaryColor" format="color" />
+    <declare-styleable name="SmartRefreshLayout">
+        <attr name="android:clipChildren" />
+        <attr name="android:clipToPadding" />
+        <attr name="srlPrimaryColor" />
+        <attr name="srlAccentColor" />
+        <attr name="srlReboundDuration" format="integer" />
+        <attr name="srlHeaderHeight" format="dimension" />
+        <attr name="srlFooterHeight" format="dimension" />
+        <attr name="srlHeaderInsetStart" format="dimension" />
+        <attr name="srlFooterInsetStart" format="dimension" />
+        <attr name="srlDragRate" format="float" />
+        <attr name="srlHeaderMaxDragRate" format="float" />
+        <attr name="srlFooterMaxDragRate" format="float" />
+        <attr name="srlHeaderTriggerRate" format="float" />
+        <attr name="srlFooterTriggerRate" format="float" />
+        <attr name="srlEnableRefresh" format="boolean" />
+        <attr name="srlEnableLoadMore" format="boolean" />
+        <attr name="srlEnableHeaderTranslationContent" format="boolean" />
+        <attr name="srlEnableFooterTranslationContent" format="boolean" />
+        <attr name="srlHeaderTranslationViewId" format="reference" />
+        <attr name="srlFooterTranslationViewId" format="reference" />
+        <attr name="srlEnablePreviewInEditMode" format="boolean" />
+        <attr name="srlEnableAutoLoadMore" format="boolean" />
+        <attr name="srlEnableOverScrollBounce" format="boolean" />
+        <attr name="srlEnablePureScrollMode" format="boolean" />
+        <attr name="srlEnableNestedScrolling" format="boolean" />
+        <attr name="srlEnableScrollContentWhenLoaded" format="boolean" />
+        <attr name="srlEnableScrollContentWhenRefreshed" format="boolean" />
+        <attr name="srlEnableLoadMoreWhenContentNotFull" format="boolean" />
+        <attr name="srlEnableFooterFollowWhenLoadFinished" format="boolean" />
+        <attr name="srlEnableFooterFollowWhenNoMoreData" format="boolean" />
+        <attr name="srlEnableClipHeaderWhenFixedBehind" format="boolean" />
+        <attr name="srlEnableClipFooterWhenFixedBehind" format="boolean" />
+        <attr name="srlEnableOverScrollDrag" format="boolean" />
+        <attr name="srlDisableContentWhenRefresh" format="boolean" />
+        <attr name="srlDisableContentWhenLoading" format="boolean" />
+        <attr name="srlFixedHeaderViewId" format="reference" />
+        <attr name="srlFixedFooterViewId" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="EditBtn">
+        <attr name="ImageEdt" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="BottomBtn">
+        <attr name="Name" format="string" />
+        <attr name="Image" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <!--RangeSeekBar common attrs-->
+
+        <!--The maximum-->
+        <attr name="rsb_max" format="float"/>
+
+        <!--The minimum-->
+        <attr name="rsb_min" format="float"/>
+
+        <!--RangeSeekBar mode, single is normal seekBar, range is RangeSeekBar-->
+        <attr name="rsb_mode" format="enum">
+            <enum name="single" value="1"/>
+            <enum name="range" value="2"/>
+        </attr>
+
+        <!--RangeSeekBar gravity-->
+        <attr name="rsb_gravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+
+        <!--The min interval of the thumbs -->
+        <attr name="rsb_min_interval" format="float"/>
+
+        <!-- 0 for the normal mode, greater than 1 to switch to scale mode-->
+        <attr name="rsb_tick_mark_number" format="integer"/>
+
+        <!--Scale mode
+        Number according to the scale of the actual proportion of the distribution of the location (markTextArray must be a number)
+        Other bisects the current layout (markTextArray can be any character)
+        -->
+        <attr name="rsb_tick_mark_mode" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="other" value="1"/>
+        </attr>
+
+        <!--The tick mark text gravity -->
+        <attr name="rsb_tick_mark_gravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+
+        <!--The tick mark text layout gravity -->
+        <attr name="rsb_tick_mark_layout_gravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+
+        <!--The tick mark text array -->
+        <attr name="rsb_tick_mark_text_array" format="reference"/>
+
+        <!--The tick mark text margin bottom to progress -->
+        <attr name="rsb_tick_mark_text_margin" format="dimension" />
+
+        <attr name="rsb_tick_mark_text_size" format="dimension" />
+
+        <attr name="rsb_tick_mark_text_color" format="color" />
+
+        <!--it just work in range && number mode now-->
+        <attr name="rsb_tick_mark_in_range_text_color" format="color" />
+
+        <attr name="rsb_progress_height" format="dimension"/>
+
+        <attr name="rsb_progress_radius" format="dimension"/>
+
+        <!--the color of progress bar when in progress-->
+        <attr name="rsb_progress_color" format="color"/>
+        <!--the default color of the progress bar-->
+        <attr name="rsb_progress_default_color" format="color"/>
+
+        <attr name="rsb_progress_drawable" format="reference"/>
+
+        <attr name="rsb_progress_drawable_default" format="reference"/>
+
+        <!--SeekBar attrs-->
+        <attr name="rsb_indicator_show_mode" format="enum">
+            <enum name="showWhenTouch" value="0"/>
+            <enum name="alwaysHide" value="1"/>
+            <enum name="alwaysShowAfterTouch" value="2"/>
+            <enum name="alwaysShow" value="3"/>
+        </attr>
+        <attr name="rsb_indicator_height" format="dimension" >
+            <enum name="wrap_content" value="-1" />
+        </attr>
+        <attr name="rsb_indicator_width" format="dimension" >
+            <enum name="wrap_content" value="-1" />
+        </attr>
+        <!--indicator margin bottom to progress bar-->
+        <attr name="rsb_indicator_margin" format="dimension" />
+        <attr name="rsb_indicator_text_size" format="dimension" />
+        <attr name="rsb_indicator_text_color" format="color" />
+        <!--indicator arrow size, it just work when you not use rsb_indicator_drawable -->
+        <attr name="rsb_indicator_arrow_size" format="dimension" />
+        <!-- must use 9 path ！！！-->
+        <attr name="rsb_indicator_drawable" format="reference"/>
+        <attr name="rsb_indicator_background_color" format="color" />
+        <attr name="rsb_indicator_padding_left" format="dimension" />
+        <attr name="rsb_indicator_padding_right" format="dimension" />
+        <attr name="rsb_indicator_padding_top" format="dimension" />
+        <attr name="rsb_indicator_padding_bottom" format="dimension" />
+        <attr name="rsb_indicator_radius" format="dimension" />
+        <attr name="rsb_thumb_drawable" format="reference"/>
+        <!--the thumb inactivated is when you don't touch the thumb button-->
+        <attr name="rsb_thumb_inactivated_drawable" format="reference"/>
+        <attr name="rsb_thumb_width" format="dimension"/>
+        <attr name="rsb_thumb_height" format="dimension"/>
+        <attr name="rsb_thumb_scale_ratio" format="float"/>
+
+        <!--steps SeekBar-->
+        <attr name="rsb_steps" format="integer"/>
+        <attr name="rsb_step_color" format="color"/>
+        <attr name="rsb_step_width" format="dimension"/>
+        <attr name="rsb_step_height" format="dimension"/>
+        <attr name="rsb_step_radius" format="dimension"/>
+        <attr name="rsb_step_auto_bonding" format="boolean"/>
+        <attr name="rsb_step_drawable" format="reference"/>
+
+    </declare-styleable>
+
+</resources>

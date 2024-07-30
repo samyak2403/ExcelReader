@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/_1sdp" android:color="@color/sodk_editor_fx_text_input_disabled_stroke" />
+    <solid android:color="@color/sodk_editor_fx_text_input_disabled_fill" />
+    <padding android:left="24.0dip" android:top="@dimen/_3sdp" android:bottom="@dimen/_3sdp" />
+</shape>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/bar"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@color/white" />
+
+    <com.artifex.sonui.editor.SOTextView
+        android:id="@+id/value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:textColor="@color/white"
+        android:textSize="24.0dip" />
+</LinearLayout>

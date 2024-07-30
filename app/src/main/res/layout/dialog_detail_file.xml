@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/bg_radius_12">
+
+        <TextView
+            android:id="@+id/tvTitleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="@string/file_details"
+            android:textColor="@color/text_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNamFile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:maxLines="3"
+            android:textColor="@color/text_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleDialog" />
+
+        <View
+            android:id="@+id/lineDetail1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="24dp"
+            android:alpha="0.8"
+            android:background="@color/line_stroke"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNamFile" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/size"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitleDialog"
+            app:layout_constraintStart_toStartOf="@+id/tvTitleDialog"
+            app:layout_constraintTop_toBottomOf="@+id/tvNamFile" />
+
+        <TextView
+            android:id="@+id/tvSize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="@string/size"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/size"
+            app:layout_constraintTop_toTopOf="@+id/size" />
+
+        <TextView
+            android:id="@+id/format"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/format"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitleDialog"
+            app:layout_constraintStart_toStartOf="@+id/tvTitleDialog"
+            app:layout_constraintTop_toBottomOf="@+id/size" />
+
+        <TextView
+            android:id="@+id/tvFormat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="@string/size"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/format"
+            app:layout_constraintTop_toTopOf="@+id/format" />
+
+        <TextView
+            android:id="@+id/created"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/created"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitleDialog"
+            app:layout_constraintStart_toStartOf="@+id/tvTitleDialog"
+            app:layout_constraintTop_toBottomOf="@+id/format" />
+
+        <TextView
+            android:id="@+id/tvCreated"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="@string/size"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/created"
+            app:layout_constraintTop_toTopOf="@+id/created" />
+
+        <View
+            android:id="@+id/lineDetail"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="24dp"
+            android:alpha="0.8"
+            android:background="@color/line_stroke"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/created" />
+
+        <TextView
+            android:id="@+id/saved_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/saved_path"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/tvTitleDialog"
+            app:layout_constraintTop_toBottomOf="@+id/lineDetail" />
+
+        <TextView
+            android:id="@+id/tvSavedPath"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="24dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:maxLines="2"
+            android:text="Storage/emulated/0/File/ImgtoPDF/img_to _pdf_06/01/2021_11:30:50.pdf"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/saved_path" />
+
+        <TextView
+            android:id="@+id/btnClose"
+            style="@style/TextButtonDialog"
+            android:layout_width="80dp"
+            android:layout_height="0dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/str_action_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="80:32"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSavedPath" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

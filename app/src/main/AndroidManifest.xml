@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:name="com.artifex.sonui.MainApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.activities.SelectActivity"
+            android:exported="false"
+            android:theme="@style/ListFileTheme" />
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:exported="false"
+            android:theme="@style/ListFileTheme" />
+        <activity
+            android:name=".ui.activities.SearchActivity"
+            android:exported="false"
+            android:theme="@style/SearchTheme" />
+        <activity
+            android:name=".ui.activities.ViewOfficeActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:exported="true"
+            android:label="@string/sodk_app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/ListFileTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/comma-separated-values" />
+                <data android:mimeType="text/csv" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/x-hwp" />
+                <data android:mimeType="image/x-wmf" />
+                <data android:mimeType="image/x-emf" />
+                <data android:mimeType="image/bmp" />
+                <data android:mimeType="image/x-ms-bmp" />
+                <data android:mimeType="image/gif" />
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.ms-excel" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+                <data android:mimeType="application/vnd.ms-word.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+                <data android:mimeType="application/vnd.ms-excel.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.template" />
+                <data android:mimeType="application/vnd.ms-powerpoint.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.ms-powerpoint.slideshow.macroenabled.12" />
+                <data android:mimeType="application/powerpoint" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/pdf" />
+                <data android:mimeType="text/xml" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="text/20180305-ww" />
+                <data android:mimeType="text/crash_reported" />
+                <data android:mimeType="text/pro" />
+                <data android:mimeType="text/gradlew" />
+                <data android:mimeType="text/properties" />
+                <data android:mimeType="text/bat" />
+                <data android:mimeType="text/gradle" />
+                <data android:mimeType="text/cpt" />
+                <data android:mimeType="text/rtf" />
+                <data android:mimeType="text/obj" />
+                <data android:mimeType="text/plist" />
+                <data android:mimeType="text/java" />
+                <data android:mimeType="text/nledata" />
+                <data android:mimeType="text/project" />
+                <data android:mimeType="text/frag" />
+                <data android:mimeType="text/conf" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.artifex.sonui.ChoosePathActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityDialog"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.activities.LanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/vnd.ms-word" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="application/vnd.ms-word.document.macroenabled.12" />
+                <data android:mimeType="application/msword" />
+                <data android:mimeType="application/vnd.ms-word.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.macroenabled.12" />
+                <data android:mimeType="application/vnd.ms-excel.sheet.macroEnabled.12" />
+                <data android:mimeType="application/vnd.ms-excel" />
+                <data android:mimeType="application/vnd.ms-excel.addin.macroenabled.12" />
+                <data android:mimeType="application/vnd.ms-excel.template.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.template" />
+                <data android:mimeType="application/vnd.ms-powerpoint.presentation.macroenabled.12" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+                <data android:mimeType="application/vnd.ms-powerpoint.slideshow.macroenabled.12" />
+                <data android:mimeType="application/pdf" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="application/rtf" />
+                <data android:mimeType="application/xml" />
+                <data android:mimeType="application/xhtml+xml" />
+                <data android:mimeType="application/txt" />
+                <data android:mimeType="text/rtf" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="text/xml" />
+                <data android:mimeType="text/x-java" />
+                <data android:mimeType="text/x-c++src" />
+                <data android:mimeType="text/x-c++hdr" />
+                <data android:mimeType="text/x-chdr" />
+                <data android:mimeType="text/x-haskell" />
+                <data android:mimeType="text/x-pascal" />
+                <data android:mimeType="text/x-tcl" />
+                <data android:mimeType="text/x-tex" />
+                <data android:mimeType="text/x-csrc" />
+                <data android:mimeType="text/x-csrc" />
+                <data android:pathPattern=".*\\.java" />
+                <data android:pathPattern=".*\\.cpp" />
+                <data android:pathPattern=".*\\.rtf" />
+                <data android:pathPattern=".*\\.kt" />
+                <data android:pathPattern=".*\\.htm" />
+                <data android:pathPattern=".*\\.html" />
+                <data android:mimeType="application/json" />
+                <data android:pathPattern=".*\\.json" />
+                <data android:mimeType="image/jpg" />
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="image/webp" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.arrowwould.excelreader.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6201944930453956~1660270564" />
+    </application>
+
+</manifest>

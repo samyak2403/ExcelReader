@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/sodk_editor_cell_box_disabled_fill" />
+            <stroke android:width="@dimen/_1sdp" android:color="@color/sodk_editor_cell_box_disabled_stroke" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/sodk_editor_cell_box_focused_fill" />
+            <stroke android:width="@dimen/_3sdp" android:color="@color/sodk_editor_cell_box_focused_stroke" />
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_selected="false">
+        <shape>
+            <solid android:color="@color/sodk_editor_cell_box_deselected_fill" />
+            <stroke android:width="@dimen/_1sdp" android:color="@color/sodk_editor_cell_box_deselected_stroke" />
+        </shape>
+    </item>
+</selector>

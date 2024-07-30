@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/shape_bg_main_tab"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <com.arrowwould.excelreader.customviews.BottomBtn
+        android:id="@+id/btnRotateTab"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:Image="@drawable/ic_flip_black"
+        app:Name="@string/rotate" />
+
+    <com.arrowwould.excelreader.customviews.BottomBtn
+        android:id="@+id/btnEditTab"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:Image="@drawable/ic_edit"
+        app:Name="@string/edit" />
+
+    <com.arrowwould.excelreader.customviews.BottomBtn
+        android:id="@+id/btnSearchTab"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:Image="@drawable/ic_search_text"
+        app:Name="@string/search_menu_title" />
+
+    <com.arrowwould.excelreader.customviews.BottomBtn
+        android:id="@+id/btnThumbnailTab"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        app:Image="@drawable/ic_preview_pages"
+        app:Name="@string/menu_thumbnail" />
+
+
+</LinearLayout>

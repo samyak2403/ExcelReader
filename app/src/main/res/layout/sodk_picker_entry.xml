@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.artifex.sonui.ChooseDocListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+        <com.artifex.sonui.editor.SOTextView
+            android:id="@id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/sodk_so_ui_preview_button_textcolor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sodk_so_ui_control_overlay"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0" />
+
+        <View
+            android:layout_width="50.0dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/sodk_control_gradient" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/control_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:onClick="onClickControlDelete"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="@dimen/sodk_editor_control_icon_width"
+                    android:layout_height="@dimen/sodk_editor_control_icon_height"
+                    android:layout_marginLeft="@dimen/sodk_editor_control_icon_margin"
+                    android:layout_marginRight="@dimen/sodk_editor_control_icon_margin"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:padding="@dimen/sodk_editor_control_icon_padding"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_share" />
+
+                <com.artifex.sonui.editor.SOTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="@string/sodk_editor_delete"
+                    android:textColor="@color/sodk_so_ui_preview_button_textcolor"
+                    android:textSize="11.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/control_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:onClick="onClickControlCopy"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="@dimen/sodk_editor_control_icon_width"
+                    android:layout_height="@dimen/sodk_editor_control_icon_height"
+                    android:layout_marginLeft="@dimen/sodk_editor_control_icon_margin"
+                    android:layout_marginRight="@dimen/sodk_editor_control_icon_margin"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:padding="@dimen/sodk_editor_control_icon_padding"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_share" />
+
+                <com.artifex.sonui.editor.SOTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="@string/sodk_editor_copy"
+                    android:textColor="@color/sodk_so_ui_preview_button_textcolor"
+                    android:textSize="11.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/control_rename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:onClick="onClickControlRename"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="@dimen/sodk_editor_control_icon_width"
+                    android:layout_height="@dimen/sodk_editor_control_icon_height"
+                    android:layout_marginLeft="@dimen/sodk_editor_control_icon_margin"
+                    android:layout_marginRight="@dimen/sodk_editor_control_icon_margin"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:padding="@dimen/sodk_editor_control_icon_padding"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_share" />
+
+                <com.artifex.sonui.editor.SOTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="@string/sodk_editor_rename"
+                    android:textColor="@color/sodk_so_ui_preview_button_textcolor"
+                    android:textSize="11.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/control_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:onClick="onClickControlShare"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="@dimen/sodk_editor_control_icon_width"
+                    android:layout_height="@dimen/sodk_editor_control_icon_height"
+                    android:layout_marginLeft="@dimen/sodk_editor_control_icon_margin"
+                    android:layout_marginRight="@dimen/sodk_editor_control_icon_margin"
+                    android:background="@android:color/transparent"
+                    android:clickable="false"
+                    android:padding="@dimen/sodk_editor_control_icon_padding"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_share" />
+
+                <com.artifex.sonui.editor.SOTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="@string/sodk_editor_share"
+                    android:textColor="@color/sodk_so_ui_preview_button_textcolor"
+                    android:textSize="11.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/control_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:onClick="onClickControlLogout"
+                android:orientation="vertical">
+
+                <com.artifex.sonui.editor.SOTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:paddingEnd="@dimen/_15sdp"
+                    android:text="Log out"
+                    android:textColor="@color/colorPrimaryContrast"
+                    android:textSize="@dimen/_13sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.artifex.sonui.ChooseDocListItemView>

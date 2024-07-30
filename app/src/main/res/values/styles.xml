@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_sidebar</item>
+
+    </style>
+
+    <style name="SearchTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+    <style name="MyEditTextStyle">
+        <item name="android:textColorHighlight">#401c73e1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textCursorDrawable">@drawable/shape_cursor</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TextViewFont_PopSemiBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextViewFont_PopMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+
+    <style name="TextViewFont_PopRegular">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="sodk_editor_font_color_button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">17.0pt</item>
+        <item name="android:layout_height">17.0pt</item>
+        <item name="android:layout_margin">@dimen/_5sdp</item>
+    </style>
+
+    <style name="sodk_editor_dialog_title_style">
+        <item name="android:textSize">12.0pt</item>
+        <item name="android:textColor">@color/sodk_editor_picker_text_color</item>
+        <item name="android:background">@color/sodk_editor_picker_bg_color</item>
+    </style>
+
+    <style name="sodk_editor_wheel_title_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/sodk_editor_palette_white</item>
+        <item name="android:paddingTop">@dimen/_5sdp</item>
+    </style>
+
+    <style name="sodk_cert_detail_title">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10.0sp</item>
+    </style>
+
+    <style name="sodk_cert_detail_heading" parent="@style/sodk_cert_detail_title">
+        <item name="android:layout_marginTop">10.0sp</item>
+    </style>
+
+    <style name="sodk_cert_detail_description" parent="@style/sodk_cert_detail_subheading">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginBottom">@dimen/_5sdp</item>
+        <item name="android:layout_marginStart">30.0sp</item>
+    </style>
+
+    <style name="sodk_dialog_panel_border" parent="@style/sodk_dialog_panel">
+        <item name="android:background">@drawable/sodk_dialog_border</item>
+    </style>
+
+    <style name="sodk_dialog_button">
+        <item name="android:textColor">@color/sodk_explorer_blue</item>
+        <item name="android:background">@color/sodk_palette_white</item>
+        <item name="android:color">@color/sodk_explorer_blue</item>
+    </style>
+
+    <style name="sodk_editor_pdf_toc_text_box_style">
+        <item name="android:textColor">@color/sodk_editor_palette_black</item>
+        <item name="android:background">@color/sodk_editor_palette_white</item>
+    </style>
+    <style name="TextButtonDialog">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="Text13">
+        <item name="android:textSize">13sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="maxLines">1</item>
+    </style>
+    <style name="ListFileTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_return_black</item>
+
+    </style>
+    <style name="TextTitle15">
+        <item name="android:textSize">15sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="maxLines">1</item>
+    </style>
+    <style name="sodk_editor_alert_dialog_style" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonStyle">@style/sodk_editor_alert_button_style</item>
+        <item name="android:textColor">@color/sodk_editor_palette_black</item>
+    </style>
+    <style name="sodk_editor_alert_button_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/sodk_editor_alert_button_color</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="sodk_editor_shape_dialog_title_style">
+        <item name="android:textSize">12.0pt</item>
+        <item name="android:textColor">@color/sodk_editor_shape_picker_text_color</item>
+        <item name="android:background">@color/sodk_editor_shape_picker_bg_color</item>
+    </style>
+    <style name="sodk_editor_note_editor_textview_style">
+        <item name="android:textColor">@color/sodk_editor_palette_black</item>
+        <item name="android:background">@color/sodk_editor_transparent</item>
+        <item name="android:layout_width">@dimen/sodk_editor_note_editor_width</item>
+    </style>
+    <style name="sodk_editor_page_menu_style">
+        <item name="android:background">@drawable/sodk_editor_page_menu</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+    </style>
+    <style name="FontMedium">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="sodk_editor_page_menu_divider_style">
+        <item name="android:background">@color/sodk_editor_palette_black</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+    </style>
+
+    <style name="sodk_editor_page_menu_item_style">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:background">@color/sodk_editor_palette_white</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+    </style>
+
+    <style name="sodk_editor_wheel_plus_style">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sodk_editor_palette_green_1</item>
+        <item name="android:paddingRight">@dimen/_7sdp</item>
+    </style>
+
+    <style name="sodk_editor_wheel_checkbox_label_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/sodk_editor_palette_white</item>
+        <item name="android:paddingLeft">@dimen/_7sdp</item>
+    </style>
+
+    <style name="sodk_editor_font_formula_text_box_style">
+        <item name="android:textColor">@color/sodk_editor_palette_white</item>
+        <item name="android:background">@color/sodk_editor_palette_slate_grey</item>
+    </style>
+
+    <style name="sodk_editor_wheel_checkbox_style" parent="@style/Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/sodk_editor_palette_ltgrey</item>
+        <item name="colorControlNormal">@color/sodk_editor_palette_ltgrey</item>
+    </style>
+
+    <style name="sodk_cert_detail_subheading" parent="@style/sodk_cert_detail_heading">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_marginStart">24.0dip</item>
+    </style>
+
+    <style name="sodk_editor_alert_edit_text_style" />
+
+    <style name="sodk_dialog_panel">
+        <item name="android:padding">@dimen/_7sdp</item>
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="sodk_dialog_separator">
+        <item name="android:background">@color/sodk_explorer_blue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:layout_marginTop">@dimen/_7sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_7sdp</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="TitleCollapseAppBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorSolidText</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="Text13Bold">
+        <item name="android:textSize">13sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="maxLines">1</item>
+    </style>
+    <style name="ActivityDialog" parent="Theme.AppCompat.Light.Dialog" />
+
+</resources>

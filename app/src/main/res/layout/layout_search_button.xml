@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_search_back_forward"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_search_back"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_bg_search_left"
+        android:paddingLeft="10dp"
+        android:paddingTop="6dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp"
+        android:scaleType="fitCenter"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_return" />
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="#cc151722" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_search_forward"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_bg_search_right"
+        android:paddingLeft="10dp"
+        android:paddingTop="6dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_return_rtl" />
+</LinearLayout>
+

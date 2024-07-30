@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/sodk_editor_sheet_tab"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/sheetTab"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.artifex.sonui.editor.SOTextView
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/sodk_editor_transparent"
+            android:clickable="false"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingHorizontal="21dp"
+            android:textColor="@color/ss_bottom_sheet_text"
+            android:textSize="14sp" />
+
+        <Space
+            android:id="@+id/spacer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@color/sodk_editor_transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/ic_close"
+            app:tint="@color/white" />
+    </LinearLayout>
+</merge>

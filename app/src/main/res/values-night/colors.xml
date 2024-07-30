@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1c1e24</color>
+    <color name="colorPrimaryDark">#ff1c1e24</color>
+    <color name="colorAccent">#ff006cff</color>
+
+    <color name="colorNormalBg">#2b2d35</color>
+
+    <color name="colorSelectTint">#ffffff</color>
+    <color name="colorPrimaryText">#ffffffff</color>
+    <color name="colorPrimaryTint">#ffffffff</color>
+    <color name="colorSolidText">#ffffffff</color>
+    <color name="colorSnackBarBg">#ff383a43</color>
+    <color name="colorCloseTint">#78869d</color>
+    <color name="colorNegativeTint">#383a43</color>
+
+    <color name="colorBgToolType">#ff1c1e24</color>
+
+    <color name="colorRipple">#1ac9e2ff</color>
+    <color name="colorBgCircle">#ff1c1e24</color>
+    <color name="colorDivider">#383a43</color>
+
+    <color name="colorTextNagativeButton">#ff041d45</color>
+    <color name="colorAccentPressed">#133566</color>
+    <color name="colorSolidBg">#ff1c1e24</color>
+    <color name="colorProgressBg">#444953</color>
+    <color name="colorEtTint">#78869d</color>
+    <color name="colorOperateDoneBg">#2b2d35</color>
+    <color name="colorConvertLoadingBg">#383a43</color>
+
+    <color name="bg_tool_merge">#383a43</color>
+    <color name="bg_tool_split">#383a43</color>
+    <color name="bg_tool_browse">#383a43</color>
+    <color name="bg_tool_print">#383a43</color>
+    <color name="bg_tool_image_pdf">#383a43</color>
+    <color name="bg_tool_pdf_image">#383a43</color>
+    <color name="bg_tool_your_pdf">#383a43</color>
+    <color name="bg_tool_compress">#383a43</color>
+    <color name="bg_tool_more">#383a43</color>
+    <color name="ripple_color">#1ac9e2ff</color>
+    <color name="bg_tool_lock_pdf">#383a43</color>
+    <color name="bg_tool_unlock_pdf">#383a43</color>
+
+    <color name="color_pdf_selection_background">#2b2b2b</color>
+    <color name="color_pdf_selection_border">#3e3e3e</color>
+
+
+    <color name="colorPrice">#62656c</color>
+    <color name="colorBgAdsNative">#2e2e2e</color>
+    <color name="colorBlack">#ffffff</color>
+    <color name="colorAdDesc">#909195</color>
+
+
+    <color name="colorBgAds">#ffffffff</color>
+
+</resources>

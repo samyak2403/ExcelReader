@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/sodk_editor_toc_link_fill" />
+            <padding android:left="@dimen/_5sdp" android:top="@dimen/_5sdp" android:right="@dimen/_5sdp" android:bottom="@dimen/_5sdp" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/sodk_editor_button_normal" />
+            <padding android:left="@dimen/_5sdp" android:top="@dimen/_5sdp" android:right="@dimen/_5sdp" android:bottom="@dimen/_5sdp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/sodk_editor_button_normal" />
+            <padding android:left="@dimen/_5sdp" android:top="@dimen/_5sdp" android:right="@dimen/_5sdp" android:bottom="@dimen/_5sdp" />
+        </shape>
+    </item>
+</selector>

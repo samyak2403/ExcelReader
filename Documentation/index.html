@@ -1,0 +1,312 @@
+﻿<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+<title>Documentation by "DevGurus-Viet Nam"</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+    <h4 id="logo">Excel Reader </h4>
+  </header>
+  <nav id="nav">
+    <ul>
+		<li><a href="#eclipseversion"><i class="fa fa-hand-o-right"></i> Which Android Studio version is needed?</a></li>
+		<li><a href="#importproject"><i class="fa fa-hand-o-right"></i> How to open the project in Android Studio?</a></li>
+		<li><a href="#packagename"><i class="fa fa-hand-o-right"></i> How to change the package name?</a></li>
+		<li><a href="#appname"><i class="fa fa-hand-o-right"></i> How to change app name?</a></li>
+		<li><a href="#admob_app_id"><i class="fa fa-hand-o-right"></i> Where to put Admob app id?</a></li>
+		<li><a href="#rtl"><i class="fa fa-hand-o-right"></i> How to enable/disable RTL?</a></li>
+		<li><a href="#splash"><i class="fa fa-hand-o-right"></i> How to change 'Splash Screen, Application Icon'?</a></li>
+		<li><a href="#package_name"><i class="fa fa-hand-o-right"></i> How to Find Package name?</a></li>
+		<li><a href="#app_color"><i class="fa fa-hand-o-right"></i> How to change app color?</a></li>
+		<li><a href="#app_image"><i class="fa fa-hand-o-right"></i> How to change app all images?</a></li>
+		<li><a href="#sign_apk"><i class="fa fa-hand-o-right"></i> How to Generate Signed AAB?(For Reference)</a></li>
+	    <li><a href="#data_safety"><i class="fa fa-hand-o-right"></i>How to fill Data Safety Form?</a></li>
+		<li><a href="#graphics"><i class="fa fa-hand-o-right"></i> Graphics</a></li>
+		<li><a href="#showcase"><i class="fa fa-hand-o-right"></i> App Showcase</a></li>
+		<li><a href="#rating"><i class="fa fa-hand-o-right"></i> Rating</a></li>
+    </ul>
+  </nav>  
+</section>
+<div id="wrapper">
+  <div id="main">
+    <section id="one">
+      <div class="container">
+        <header class="major">
+          <h2>Excel Reader</h2>
+        </header>
+        <div class="borderTop">
+          <div class="span-6 colborder info prepend-1">
+            <p class="prepend-top"> <strong>Created:- 25 July 2023<br>
+              Company: DevGurus - Viet Nam<br>
+              Contact:- <a href="https://codecanyon.net/user/goatmobilesapp" style='color:#0e8bcb' target="_blank">Codecanyon Profile</a> </strong> </p>
+          </div>
+          <div class="span-12 last">
+            <p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="https://codecanyon.net/user/dev_gurus" style='color:#0e8bcb' target="_blank">Here</a>. Thanks so much!</p>
+          </div>
+        </div>
+		<div class="section_bdr"></div>	
+
+       <section id="eclipseversion">
+          <div class="container"> <br>
+            <h2>Which Android Studio version is needed?</h2>
+            <p>Android Studio Chipmunk | 2021.2.1 Patch 2 version recommended<br />
+			<a style="color:#0e8bcb" href="https://developer.android.com/studio/archive" target="_blank">https://developer.android.com/studio/archive</a> </p>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="importproject">
+          <div class="container"> <br>
+            <h2>How to Open The Project in Android Studio?</h2>
+            <ul class="feature_list">
+              <li>Open Android Studio > Open an Existing Android Studio Project > Select Your Project build. gradle file > ok </li>
+              <li>Select Project</li>
+            </ul>
+            <span class="lightbox"><img src="images/import_1.png" alt=""/> </span>
+            <span class="lightbox"><img src="images/import_2.png" alt=""/> </span>            
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="packagename">
+          <div class="container"> <br>
+            <h2>How to change the package name? </h2>
+            <p>You can change it easily from Android Studio. Here are the steps:</p>
+            <ul class="feature_list">
+              <li>In the Project pane, click on the little gear icon.Uncheck/Deselect the Compact Empty Middle Packages option.</li>
+              <li>Your package directory will now be broken up in individual directories.</li>
+              <li>Individually select each directory you want to rename, and: Right-click itSelect RefactorClick on RenameIn the Pop-up dialog.</li>
+              <li>Click on Rename Package instead of Rename Directory Enter the new name and hit RefactorAllow a minute to let Android Studio update all changes.</li>
+              <li>Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</li>
+            </ul>
+            <p style="font-size:18px"><b>Note:</b> When renaming com in Android Studio, it might give a warning. In such case, select Rename All.</p>
+				<span class="lightbox"><img src="images/packagename_1.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_2.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_3.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_5.png" alt=""/> </span>
+				<span class="lightbox"><img src="images/packagename_6.png" alt=""/> </span>            
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+		<section id="appname">
+          <div class="container"> <br>
+            <h2>How to change app name? </h2>
+            <ul class="feature_list">
+              <li>Open Android Studio >WordReader > res > values > strings.xml</li>
+              <li>Enter your app name inside <b style="color:#0e8bcb">"app_name"</b> string tag:<br />
+                <code>&lt;string name="app_name"&gt;<b>WordReader</b>&lt;/string&gt;</code></li>
+            </ul>
+            <span class="lightbox"><img src="images/app_name.png" alt=""/> </span>            
+          </div>
+        </section>
+        <div class="section_bdr"></div>
+		
+		<section id="admob_app_id">
+		  <div class="container"> <br>
+			<h2>Where to put Admob app id in application ?</h2>
+			<ul class="feature_list">
+				<li>Open Android Studio > app > res > values > strings.xml
+				<li>Enter your AdMob App id inside <b>"admob_id"</b> string tag:<br />
+				<code>&lt;string name="admob_id"&gt;<b>Your Admob App Id</b>&lt;/string&gt;</code></li>
+			</ul>
+			<span class="lightbox"><img src="images/admob_app_id.png" alt=""/></span>
+	
+		  </div>
+		</section> 
+        <div class="section_bdr"> </div>
+
+
+		<section id="rtl">
+		  <div class="container"> <br>
+			<h2>How to enable/disable RTL(Right To Left)?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > res > values > strings.xml</li>
+			  <li>Change isRTL to <b>true</b> if you want to enable or <b>false</b> if you want to disable</li>
+			  <li>Change all the text below in your language</li>
+			</ul>
+			<span class="lightbox"> <img src="images/rtl_app.png" alt=""/></span>
+			</ul>
+		  </div>
+		</section>
+        <div class="section_bdr"></div>
+
+        <section id="splash">
+			<div class="container"> <br>
+			<h2>How to change 'Splash Screen, Application Icon and MoreApp link'? </h2>
+			<b>How To Change Application Icon</b>
+			<ul class="feature_list">
+				<li>Open Android Studio > app > res ></li>
+				<li>Rename your icon with ic_launcher.png and ic_launcher_round.png paste in all mipmap folders
+			    <span class="lightbox"> <img src="images/app_icon1.png" alt=""/> </span></li>
+			</ul>
+			<b>How To Change Splash Screen</b>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > res > drawable-nodpi > splash_screen.png or jpg</li>
+			  <li>Open Android Studio > app > res > drawable-night > splash_screen.png or jpg</li>
+			  <li>Rename your splash screen image  with splash_screen.png or jpg and paste in drawable-nodpi and drawable-night folder</li>
+			</ul>
+
+		</section>
+		<div class="section_bdr"></div>
+        <div class="section_bdr"></div>			
+		<section id="package_name">
+		  <div class="container"> <br>
+			<h2>How to Find Package Name?</h2>
+			<span class="lightbox"><img src="images/package_name.png" alt=""/></span>
+			<br>
+			</p>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+			
+		<section id="app_color">	
+		  <div class="container"> <br>
+			<h2>How to change app color ?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > values > colors.xml</li>
+			  <li>Open Android Studio > app > src > main > res > values-night > colors.xml</li>
+			  <li>values-night > colors.xml all color for night mode in this file</li>
+			  <span class="lightbox"><img src="images/app_color.png" alt=""/></span>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+		
+		<section id="app_image">	
+		  <div class="container"> <br>
+			<h2>How to change app images ?</h2>
+			<ul class="feature_list">
+			  <li>Open Android Studio > app > src > main > res > drawable-night</li>
+			  <li>Open Android Studio > app > src > main > res > drawable-nodpi</li>
+			   <li>Open Android Studio > app > src > main > res > drawable</li>
+			  <li>drawable-night folder for all image for night mode</li>
+			</ul>
+		  </div>
+		</section>
+		<div class="section_bdr"></div>
+
+		<section id="sign_apk">
+          <div class="container"> <br>
+            <h2>How to Generate Signed AAB?(For Reference)</h2>
+            <p><b>Create New Keystore</b></p>
+            <ul class="feature_list">
+              <li>Click Build > Generate Signed Bundle/APK<br>
+              <span class="lightbox"> <img src="images/signapk_1.png" alt=""/> </span>
+              <span class="lightbox"> <img src="images/signapk_2.png" alt=""/> </span></li>
+              <li>Click On Create New or if you are updating app click choose existing<br>
+              <span class="lightbox"><img src="images/signapk_3.png" alt=""/> </span></li>
+              <li>Select Keystore Path</li>
+              <li>Enter Keystore password and confirm password</li>
+              <li>Enter any name for alias</li>
+              <li>Enter key password and confirm password</li>
+              <li>Choose Validity Years</li>
+              <li>Fill rest of the details and click OK<br>
+              <span class="lightbox"><img src="images/signapk_4.png" alt=""/> </span></li>
+              <li>Enter keystore password, alias name, key password and genrate encrypted key export path file and click next<br>
+              <span class="lightbox"><img src="images/signapk_5.png" alt=""/> </span></li>
+              <li>Choose the signed build destination</li>
+              <li>Click Finish<br>
+              <span class="lightbox"> <img src="images/signapk_6.png" alt=""/> </span></li>        
+            </ul>
+            <p><b style="color:#ff0000;font-size:18px;">Note :- Please save the keystore and remember the keystore password, alias and key password. If you want to update app in future you have to use this keystore. With new keystore you cannot update your app</b></p>
+          </div>
+        </section>
+		<div class="section_bdr"></div>
+		
+		<section id="data_safety">
+          <div class="container"> <br>
+            <h2>How to fill Data Safety Form?</h2>
+            <ul class="feature_list">
+              <li>Open <a href="http://play.google.com/apps/publish" style='color:#0e8bcb' target="_blank">Playstore Console</a> </strong> and open your app</li>
+              <li>Click on App Content tab</li>
+              <li>Click on Manage option of Data safety</li>
+              <span class="lightbox"> <img src="images/data_safety_1.png" alt=""/> </span>
+              <li>Click Next</li>
+              <span class="lightbox"> <img src="images/data_safety_2.png" alt=""/> </span>
+              <li>Select options as follows and click Next</li>
+              <span class="lightbox"> <img src="images/data_safety_3.png" alt=""/> </span>
+              <li>Go to Personal info and select Name, Email address, User IDs and Phone number</li>
+              <span class="lightbox"> <img src="images/data_safety_4.png" alt=""/> </span>
+              <li>Go to Photos and videos and select Photos</li>
+              <span class="lightbox"> <img src="images/data_safety_5.png" alt=""/> </span>
+              <li>Scroll down and go to Device and other IDs and select Device and other IDs and click Next</li>
+              <span class="lightbox"> <img src="images/data_safety_6.png" alt=""/> </span>
+              <li>Click On arrow on each data type you selected</li>
+              <span class="lightbox"> <img src="images/data_safety_7.png" alt=""/> </span>
+              <li>Select options as follows and click Save and click Next</li>
+              <li>Do same for all other data types</li>
+              <span class="lightbox"> <img src="images/data_safety_8.png" alt=""/> </span>
+              <span class="lightbox"> <img src="images/data_safety_9.png" alt=""/> </span>
+              <li>For Device and other IDs select options as follows and click Save and click Next</li>
+              <span class="lightbox"> <img src="images/data_safety_10.png" alt=""/> </span>
+              <li>Click Submit</li>
+              <span class="lightbox"> <img src="images/data_safety_11.png" alt=""/> </span>
+            </ul>
+           </div>
+        </section>
+		
+        <div class="section_bdr"></div>
+
+        <section id="graphics">
+          <div class="container"> <br>
+            <h2>Change App all graphics</h2>
+            <p>You will find all image into /res/drawable-mdpi/,/res/drawable-hdpi/,/res/drawable-xhdpi/ folder. Just create your own graphics and replace those files. Create seperate graphics of different device screen sizes & place them into other drawble folders (drawable-hdpi & drawable-xhdpi) with same file name found at drawable-mdpi folder. Check here for more information: <a style="color:#0e8bcb" href="http://developer.android.com/design/style/devices-displays.html" target="_blank">Devices and Displays</a> & <a style="color:#0e8bcb" href="http://developer.android.com/guide/practices/screens_support.html" target="_blank">Supporting Multiple Screens</a>.</p>
+            <span class="lightbox"><img src="images/Graphics_1.png" alt="" /></span>
+            <span class="lightbox"><img src="images/Graphics_2.png" alt="" /></span>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+        <section id="showcase">
+          <div class="container"> <br>
+            <h2>Application Showcase in PlayStore</h2>
+            <p>Once you will publish your app to Google Play or any other Android store, send us your app link. We will happy to showcase your app into our website & Codecanyon page.</p>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+        <section id="rating">
+          <div class="container"> <br>
+            <h2>Rating</h2>
+            <p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your Codecanyon Menu > Download page.</p>
+            <div class="section_bdr"></div>
+          </div>
+        </section>
+
+       
+      </div>
+    </section>
+  </div>
+</div>
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<script src="assets/js/main.js"></script> 
+<script>
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});
+</script>
+<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+</html>

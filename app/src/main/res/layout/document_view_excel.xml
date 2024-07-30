@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/color_excel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include layout="@layout/toolbar_main" />
+
+        <include layout="@layout/toolbar_search" />
+
+        <include layout="@layout/toolbar_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/fx_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <com.artifex.sonui.editor.SOTextView
+            android:id="@+id/fx_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sodk_editor_fx_button"
+            android:text="@string/sodk_editor_fx"
+            android:textColor="@color/sodk_editor_fx_textcolor"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <com.artifex.sonui.editor.SOEditText
+            android:id="@+id/text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sodk_editor_text_input"
+            android:imeOptions="actionDone|flagNoExtractUi"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/sodk_editor_fx_textcolor"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hruler_holder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sodk_editor_hruler_base_size"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fx_bar">
+
+        <LinearLayout
+            android:id="@+id/hruler_spacer"
+            android:layout_width="@dimen/sodk_editor_hruler_base_size"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray_BEC7D8"
+            android:orientation="horizontal" />
+
+        <com.artifex.sonui.editor.HorizontalRuler
+            android:id="@+id/horizontal_ruler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray_BEC7D8"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/footer_page_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/shape_bg_page_num"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="7dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fx_bar" />
+
+
+    <com.artifex.sonui.editor.VerticalRuler
+        android:id="@+id/vertical_ruler"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="0dp"
+        android:background="@color/colorGray_BEC7D8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_sheet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hruler_holder" />
+
+
+    <RelativeLayout
+        android:id="@+id/doc_inner_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_sheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/vertical_ruler"
+        app:layout_constraintTop_toBottomOf="@id/hruler_holder" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_full_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/shape_bg_page_num"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="2dp"
+        android:paddingBottom="2dp"
+        android:src="@drawable/baseline_fullscreen_24"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_sheet"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        layout="@layout/layout_undo_redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_sheet"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <include
+        layout="@layout/layout_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="14dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_sheet"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/colorGray_BEC7D8"
+        app:layout_constraintBottom_toTopOf="@id/bottom_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/excel_sheets_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray_BEC7D8"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/shadow_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="50dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bg_home_tab" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/ll_ad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent">
+
+        <include
+            layout="@layout/document_view_excel_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent" />
+
+        <include
+            layout="@layout/document_view_excel_bottom_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include layout="@layout/ad_container_native_banner_1" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

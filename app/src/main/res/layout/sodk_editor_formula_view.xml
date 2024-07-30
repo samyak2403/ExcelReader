@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_3sdp"
+        android:orientation="vertical">
+
+        <com.artifex.sonui.editor.SOTextView
+            android:id="@+id/formula"
+            style="@style/sodk_editor_font_formula_text_box_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryContrast"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+
+        <com.artifex.sonui.editor.SOTextView
+            android:id="@+id/description"
+            style="@style/sodk_editor_font_formula_text_box_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryContrast"
+            android:padding="@dimen/_3sdp"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+</LinearLayout>

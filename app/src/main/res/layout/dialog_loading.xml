@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="24dp"
+
+    android:background="@drawable/shape_round_rect_dialog_bg"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Loading…"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+
+    <com.arrowwould.excelreader.customviews.HorizontalProgressBar
+        android:id="@+id/loading_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="46dp"
+        app:hpb_colorProgress="#009630"
+        app:hpb_useRoundRect="true"
+        android:layout_marginBottom="38dp"
+        app:hpb_colorBackground="#ebebeb"
+        app:hpb_progress="100" />
+</LinearLayout>
