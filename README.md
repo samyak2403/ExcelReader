@@ -59,8 +59,22 @@ The Excel Reader App is an Android application designed to read and display Exce
 
 - **Apache POI** for reading Excel files:
     ```gradle
-    implementation 'org.apache.poi:poi:5.2.2'
-    implementation 'org.apache.poi:poi-ooxml:5.2.2'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'org.jetbrains:annotations:23.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.airbnb.android:lottie:6.3.0'
+    implementation 'com.karumi:dexter:6.2.3'
+    //ADs
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+    implementation files('libs/lib_office.jar')
+
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
     ```
 - **AdMob SDK** for ads integration:
     ```gradle
